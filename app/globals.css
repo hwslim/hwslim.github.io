@@ -10,6 +10,8 @@ html, body {
 nav {
   background: #161b22;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
