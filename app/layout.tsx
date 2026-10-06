@@ -3,8 +3,8 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Embodied AI Lab',
-  description: 'Research on Embodied Artificial Intelligence',
+  title: 'Embodied Robotic Intelligence Lab',
+  description: 'Research on Embodied Robotic Intelligence',
 };
 
 export default function RootLayout({
