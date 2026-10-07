@@ -8,9 +8,14 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
   return <>
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="site-header"><div className="container header-inner">
-      <a className="brand" href={sitePath('/')} aria-label={`${site.lab_name} home`}>
-        {site.logo ? <img src={linkUrl(site.logo)} alt={site.lab_name} width="160" height="55" /> : <strong>{site.lab_name}</strong>}
-      </a>
+      <div className="brand-group">
+        {linkUrl(site.kist_logo) && <a className="brand kist-brand" href={sitePath('/')} aria-label={`${site.lab_name} home — KIST`}>
+          <img src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" />
+        </a>}
+        <a className="brand" href={sitePath('/')} aria-label={`${site.lab_name} home`}>
+          {site.logo ? <img src={linkUrl(site.logo)} alt={site.lab_name} width="160" height="55" /> : <strong>{site.lab_name}</strong>}
+        </a>
+      </div>
       <nav className="site-nav" aria-label="Main navigation">{['home', 'research', 'people', 'publications', 'news', 'gallery', 'contact'].map(name =>
         <a key={name} href={sitePath(name === 'home' ? '/' : `/${name}/`)} aria-current={page === name ? 'page' : undefined}>{site[`nav_${name}`]}</a>)}</nav>
     </div></header>

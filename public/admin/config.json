@@ -66,6 +66,25 @@
               ]
             },
             {
+              "name": "kist_logo",
+              "label": "KIST 로고",
+              "widget": "image",
+              "required": false,
+              "default": "/assets/brand/kist-logo.png",
+              "media_library": {
+                "config": {
+                  "max_file_size": 10485760,
+                  "multiple": false
+                }
+              },
+              "media_extensions": [
+                "jpg",
+                "jpeg",
+                "png",
+                "webp"
+              ]
+            },
+            {
               "name": "meta_description",
               "label": "검색 결과 소개",
               "widget": "text",

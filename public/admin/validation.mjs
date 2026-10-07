@@ -28,7 +28,7 @@ export function validateEntry(kind, data, fields) {
       const date = new Date(`${value}T00:00:00Z`);
       if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || Number.isNaN(date.valueOf()) || date.toISOString().slice(0, 10) !== value) throw new Error(`${field.label}: 올바른 날짜를 입력하세요.`);
     }
-    if (field.name.endsWith('_url') || ['link', 'image', 'logo', 'hero_image', 'cv_file'].includes(field.name)) {
+    if (field.name.endsWith('_url') || ['link', 'image', 'logo', 'kist_logo', 'hero_image', 'cv_file'].includes(field.name)) {
       let url;
       try {
         url = new URL(value, 'https://erilab.xyz');
