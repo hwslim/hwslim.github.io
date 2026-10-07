@@ -56,4 +56,6 @@ Tests cover ordering, editing rules, Alumni sanitization, CV/link validation, su
 
 The initial migration exported 9 people, 2 research topics, 41 publications, 0 news entries and 5 referenced images from the local database. Audit sources are in `docs/sources/`. The original Scholar list could not be fully compared because access was blocked; only the previously verified KIST records were migrated. Source audits describe the initial import; later CMS content is authoritative.
 
+On 2026-10-07, 182 verified KIST publications by Sang Chul Ahn were added, including All-St3R SLAM (IROS 2026), bringing the current publication count to 223. The import includes domestic proceedings in their original titles, leaves existing records intact, and records sources, exclusions and 14 unresolved candidates in [the Sang Chul Ahn audit](docs/sources/sang-chul-ahn-publications.json). The IROS entry has no paper link until a suitable public final version is available. All added entries use the existing CMS fields and can be edited in Admin.
+
 The original Flask SQLite database, credentials, session key and private instance folder are not part of this repository.

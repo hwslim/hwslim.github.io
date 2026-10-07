@@ -1,0 +1,2643 @@
+{
+  "checked_on": "2026-10-07",
+  "author": "Sang Chul Ahn (안상철)",
+  "criteria": [
+    "KIST means Korea Institute of Science and Technology, including KIST School (UST).",
+    "Verify the paper author affiliation in the manuscript, publisher metadata, author project page, or exact KIST institutional publication record.",
+    "Current email/profile affiliation and publication year alone are insufficient; an explicit contrary manuscript affiliation overrides an institutional bibliography listing.",
+    "Keep domestic papers in their original titles and retain documented authors; do not invent English translations.",
+    "Keep separately documented journal/conference papers with the same title in distinct venues; do not add a duplicate record for the same publication or a preprint.",
+    "No unverified Oral/Spotlight emphasis and no Accepted/Poster/Workshop/Demo badges."
+  ],
+  "catalogue_sources": [
+    "https://sites.google.com/view/asckist/publication",
+    "https://sites.google.com/view/asckist/research",
+    "https://cai.kist.re.kr/Publication/?keyword_type=all&keyword=%EC%95%88%EC%83%81%EC%B2%A0",
+    "https://dblp.uni-trier.de/pid/18/2136.html"
+  ],
+  "added": [
+    {
+      "title": "All-St3R SLAM: Real-time RGB Dynamic SLAM with Pixel-wise Motion Masking",
+      "year": "2026",
+      "file": "content/publications/2026-10-07-ahn-all-st3r-slam-real-time-rgb-dynamic-slam-with-pixel-wise-motion-masking-b64cdddc.json",
+      "source_index": 0,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://miil.korea.ac.kr/publications/",
+        "https://phseo.github.io/",
+        "https://github.com/yellowon0103"
+      ],
+      "verification": [
+        "Author and coauthor publication lists identify IROS 2026; named final manuscript confirms Sang Chul Ahn affiliation 3 as KIST and KIST School (UST). The local final PDF is not redistributed. The publicly linked Drive PDF is an anonymous review submission and is not used as the published-paper link."
+      ]
+    },
+    {
+      "title": "HeteroAvatar: Generation of Gaussian Head Avatars with Correct Geometry Using Hetero Rendering",
+      "year": "2025",
+      "file": "content/publications/2026-10-07-ahn-heteroavatar-generation-of-gaussian-head-avatars-with-correct-geometry-using-hetero-rendering-594bca89.json",
+      "source_index": 1,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://felizang.github.io/HeteroAvatar/",
+        "https://doi.org/10.1109/ACCESS.2025.3543163"
+      ],
+      "verification": [
+        "Author project page maps Sang Chul Ahn to affiliations 1 (UST) and 2 (KIST)."
+      ]
+    },
+    {
+      "title": "VSCHH 2023: A Benchmark for the View Synthesis Challenge of Human Heads",
+      "year": "2023",
+      "file": "content/publications/2026-10-07-ahn-vschh-2023-a-benchmark-for-the-view-synthesis-challenge-of-human-heads-33e09d2e.json",
+      "source_index": 2,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://openaccess.thecvf.com/content/ICCV2023W/RHWC/papers/Jang_VSCHH_2023_A_Benchmark_for_the_View_Synthesis_Challenge_of_ICCVW_2023_paper.pdf"
+      ],
+      "verification": [
+        "Published CVF paper Appendix A, Team 7 maps Sang Chul Ahn to affiliation 2, Korea Institute of Science and Technology. Author order is transcribed from the published first page."
+      ]
+    },
+    {
+      "title": "LIIF-GAN: Learning Representations With Local Implicit Image Function and GAN for Realistic Images on a Continuous Scale",
+      "year": "2022",
+      "file": "content/publications/2026-10-07-ahn-liif-gan-learning-representations-with-local-implicit-image-function-and-gan-for-realistic-images-on-f3de278f.json",
+      "source_index": 3,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://bmvc2022.mpi-inf.mpg.de/0703.pdf",
+        "https://pubs.kist.re.kr/handle/201004/76535"
+      ],
+      "verification": [
+        "Official BMVC paper maps both authors to KIST School and KIST Artificial Intelligence and Robotics Institute. Indexed full text was readable; the current PDF redirect has a certificate hostname mismatch, so the stable KIST publication record is used as the paper link."
+      ]
+    },
+    {
+      "title": "A Generalized Framework for Recognition of Expiration Dates on Product Packages Using Fully Convolutional Networks",
+      "year": "2022",
+      "file": "content/publications/2026-10-07-ahn-a-generalized-framework-for-recognition-of-expiration-dates-on-product-packages-using-fully-convolut-bf124cf3.json",
+      "source_index": 4,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://felizang.github.io/expdate/",
+        "https://doi.org/10.1016/j.eswa.2022.117310"
+      ],
+      "verification": [
+        "Author project page maps Sang Chul Ahn to KIST affiliation 2; title and ordered authors also confirmed in publisher-deposited Crossref metadata."
+      ]
+    },
+    {
+      "title": "Variational Multi-Prototype Encoder for Object Recognition Using Multiple Prototype Images",
+      "year": "2022",
+      "file": "content/publications/2026-10-07-ahn-variational-multi-prototype-encoder-for-object-recognition-using-multiple-prototype-images-87db2551.json",
+      "source_index": 5,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://api.crossref.org/works/10.1109%2FACCESS.2022.3151856"
+      ],
+      "verification": [
+        "IEEE-deposited Crossref author metadata lists Sang Chul Ahn with KIST School affiliation."
+      ]
+    },
+    {
+      "title": "Performance Improvement of Deep Learning based Image Segmentation Using Pixel Shift",
+      "year": "2021",
+      "file": "content/publications/2026-10-07-ahn-performance-improvement-of-deep-learning-based-image-segmentation-using-pixel-shift-61411ca4.json",
+      "source_index": 6,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10591262"
+      ],
+      "verification": [
+        "Official IEIE proceedings distributor lists 이호원, 김창수, 안상철 and maps 안상철 to 한국과학기술연구원. The English title is from the author bibliography; the omitted middle author has been restored."
+      ]
+    },
+    {
+      "title": "Simple method for generating evaluation data for scene flow algorithms",
+      "year": "2019",
+      "file": "content/publications/2026-10-07-ahn-simple-method-for-generating-evaluation-data-for-scene-flow-algorithms-ffa965b4.json",
+      "source_index": 7,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/el.2018.6856"
+      ],
+      "verification": [
+        "Publisher article maps all three authors, including S.C. An, to KIST Center for Imaging Media Research; identity spelling follows Sang Chul Ahn author bibliography."
+      ]
+    },
+    {
+      "title": "Active Panoramic VR Video Play Using Low Latency Step Detection on Smartphone",
+      "year": "2017",
+      "file": "content/publications/2026-10-07-ahn-active-panoramic-vr-video-play-using-low-latency-step-detection-on-smartphone-f16de473.json",
+      "source_index": 9,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867570",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQU0FYRUhXNmlIbEE/view?usp=sharing&resourcekey=0-3kwEEgUlhyKxPNVeSKcyIw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Projector-camera based remote assistance system for the elderly: design issues and implementation",
+      "year": "2016",
+      "file": "content/publications/2026-10-07-ahn-projector-camera-based-remote-assistance-system-for-the-elderly-design-issues-and-implementation-2eee1d7a.json",
+      "source_index": 10,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867576"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Personal bibliography mistakenly links the ICCE 2017 panoramic-video PDF; that link is discarded in favor of the exact KIST SII record."
+      ]
+    },
+    {
+      "title": "3D Modeling from Photos Given Topological Information",
+      "year": "2016",
+      "file": "content/publications/2026-10-07-ahn-3d-modeling-from-photos-given-topological-information-1d942771.json",
+      "source_index": 12,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://vig.kist.re.kr/papers",
+        "https://pubmed.ncbi.nlm.nih.gov/26661474/",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867587"
+      ],
+      "verification": [
+        "Exact paper and author trio appear in KIST VIG publication list and the KIST CAI record; publisher metadata confirms journal issue year 2016.",
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Expression Recognition Driven Virtual Human Animation",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-expression-recognition-driven-virtual-human-animation-80873f8f.json",
+      "source_index": 20,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867664",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQU1B6RTZMMjRjQlk/view?usp=sharing&resourcekey=0-Qp5qI9qNj3QAalkJfAi2pg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Research Issues of Mobile AR Tour Project (MART)",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-research-issues-of-mobile-ar-tour-project-mart-df4d09dd.json",
+      "source_index": 21,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867718"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Long-range Hand Gesture Interaction Based on Spatio-temporal Encoding",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-long-range-hand-gesture-interaction-based-on-spatio-temporal-encoding-a75309b8.json",
+      "source_index": 22,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867707",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQejhiLS1GNHZCWTg/view?usp=sharing&resourcekey=0-l1l5bDrwIIjEcJmdvquNIw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Painting Alive: Handheld Augmented Reality System for Large Targets",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-painting-alive-handheld-augmented-reality-system-for-large-targets-5e3cc03d.json",
+      "source_index": 23,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867708",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQNjU0bWdaamNWZEk/view?usp=sharing&resourcekey=0-7suPTsnODNfo5THRK-Ox8Q"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Software Component Replacement for Reusability of Application in Robot Platform",
+      "year": "2012",
+      "file": "content/publications/2026-10-07-ahn-software-component-replacement-for-reusability-of-application-in-robot-platform-52fb20fd.json",
+      "source_index": 25,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867726"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "A Convenient Way to Use Robots in a Networked Environment",
+      "year": "2012",
+      "file": "content/publications/2026-10-07-ahn-a-convenient-way-to-use-robots-in-a-networked-environment-8973c4b9.json",
+      "source_index": 28,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867737",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQNTFUVGhORWp3bW8/view?usp=sharing&resourcekey=0-aaqA3hQzV0E6MQ2AUT7hFA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Robot component connection mechanism using IP based permission assignment",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-robot-component-connection-mechanism-using-ip-based-permission-assignment-f107abe5.json",
+      "source_index": 30,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867791",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQbDBpMUNQRkhhZ1U/view?usp=sharing&resourcekey=0-yF_nsz1O9qeAlDmMEkiD4A"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "3D Interaction Using Mobile Device on 3D Environments with Large Screen",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-3d-interaction-using-mobile-device-on-3d-environments-with-large-screen-d4d3e5ad.json",
+      "source_index": 31,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867795",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQcE5HRTktb0ppcjQ/view?usp=sharing&resourcekey=0-pLH8rqby4B_vaVMnUU8pZA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "A Vision-Based Mobile Augmented Reality System for Baseball Games",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-a-vision-based-mobile-augmented-reality-system-for-baseball-games-5ea508fd.json",
+      "source_index": 32,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867801",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQeTIwajhGWUN0X2s/view?usp=sharing&resourcekey=0-G4uJPBXFmPTaveQjeD5A9g"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Fault Tolerant Framework and Techniques for Component-Based Autonomous Robot Systems",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-fault-tolerant-framework-and-techniques-for-component-based-autonomous-robot-systems-50429540.json",
+      "source_index": 33,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867827",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQX3JLb0ZkVnc2a2s/view?usp=sharing&resourcekey=0-A9unhpD9j9wDEkL6LFhNiA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "UPnP Network Bridge for Supporting Interoperability through Non-IP Channels",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-upnp-network-bridge-for-supporting-interoperability-through-non-ip-channels-3ff672b5.json",
+      "source_index": 34,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867848",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQd0ZSdXJsaklLOG8/view?usp=sharing&resourcekey=0-ZPYShePqnv96KB--JvKQ_w"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Development of an autonomous candy serving robot using UPnP based robot middleware",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-development-of-an-autonomous-candy-serving-robot-using-upnp-based-robot-middleware-d138fd4f.json",
+      "source_index": 35,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867845",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQdFpScUZkWkRUa0U/view?usp=sharing&resourcekey=0-E80HnGL8czf7Ti55rHkyGA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Interactive panorama video viewer with head tracking algorithms",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-interactive-panorama-video-viewer-with-head-tracking-algorithms-4cbb0c1a.json",
+      "source_index": 36,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867866",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQQm9QVFdCSWY5NW8/view?usp=sharing&resourcekey=0-nraXAgEM24GmFzMgtNihGQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "UPnP single event mechanism for OPRoS robot S/W platform",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-upnp-single-event-mechanism-for-opros-robot-s-w-platform-c085d6dd.json",
+      "source_index": 37,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867859",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQRVZxZk5GYkp4Ukk/view?usp=sharing&resourcekey=0-zHeoTg0EVOBk1XpjcNiyDg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "A Hierarchical Fault Tolerant Architecture for Component-based Service Robots",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-a-hierarchical-fault-tolerant-architecture-for-component-based-service-robots-49ff993e.json",
+      "source_index": 38,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867871",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQRk9pb0JTdWhiQ28/view?usp=sharing&resourcekey=0-WJdW4QTWVflSrZlEIXxuOA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Mobile health monitoring system based on activity recognition using accelerometer",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-mobile-health-monitoring-system-based-on-activity-recognition-using-accelerometer-f652ebeb.json",
+      "source_index": 39,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867899",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQcEp2V3ZLdF9ZRlk/view?usp=sharing&resourcekey=0-grFJuoq9ySMwYtyxftk9_Q"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Design and Implementation of a Fault Tolerant Computing Platform for Service Robots",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-design-and-implementation-of-a-fault-tolerant-computing-platform-for-service-robots-e71d05d6.json",
+      "source_index": 40,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867906",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTExiNlhKYzNiMG8/view?usp=sharing&resourcekey=0-D_O9pR3kLiyJk1M56HFodg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "MART-MAF: Media File Format for AR Tour Guide Service",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-mart-maf-media-file-format-for-ar-tour-guide-service-27f03820.json",
+      "source_index": 41,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867907",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQcTZ3LVVrdnZlQkU/view?usp=sharing&resourcekey=0-bJXm_b_Bpu_06EoG3u3EKw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "A Fault-Tolerant Architecture for Component-based Service Robot Software Platforms",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-a-fault-tolerant-architecture-for-component-based-service-robot-software-platforms-f36a86c7.json",
+      "source_index": 42,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867918",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQX19oSGlSdUZjN2s/view?usp=sharing&resourcekey=0-19EZt6azKHAwEul2SfRbnA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Efficient UPnP SOAP transmission using IP matching",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-efficient-upnp-soap-transmission-using-ip-matching-3ac9db46.json",
+      "source_index": 43,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867921",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQVHk1TU04Wk9wRTQ/view?usp=sharing&resourcekey=0-ELRUf6_GKIOYm2lLkIdlow"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Tangible Video Teleconference System Using Real-Time Image-Based Relighting",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-tangible-video-teleconference-system-using-real-time-image-based-relighting-d2b06525.json",
+      "source_index": 44,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867934",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaS1fd2ZwRmFwTU0/view?usp=sharing&resourcekey=0-LS84y2FaPk44Hls39sBycA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Component Design Patterns for Robot Platform Standardization: Anatomical studies and a Proposal",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-component-design-patterns-for-robot-platform-standardization-anatomical-studies-and-a-proposal-0492a175.json",
+      "source_index": 45,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867933",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQOHRQZDZ3M21NOXc/view?usp=sharing&resourcekey=0-NX0dwpFwXQk3NrevU19RYA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "UPnP robot middleware for dynamic services",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-upnp-robot-middleware-for-dynamic-services-c9c9796a.json",
+      "source_index": 46,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867935",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTUh3RmxEUWVodXc/view?usp=sharing&resourcekey=0-wvKbAfD6ixuLE9Ivl5CnHg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Ordered author list follows the manuscript first page, correcting omissions/order in the personal bibliography."
+      ]
+    },
+    {
+      "title": "UPnP Network Bridge Architecture for Combining Different Networks",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-upnp-network-bridge-architecture-for-combining-different-networks-9998a3aa.json",
+      "source_index": 47,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867940",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQb0YtVV9oQ0d5Q0U/view?usp=sharing&resourcekey=0-miFczsV4O32ij1Kn0MdMCw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Motion-based Interaction for Mirror World in Mobile Devices",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-motion-based-interaction-for-mirror-world-in-mobile-devices-9cf347de.json",
+      "source_index": 48,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867937",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQUEVPNnJWQVpZQVk/view?usp=sharing&resourcekey=0-K-oUU4liO83RK7yQ_HxuUQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Development of an Open Software Platform for Robotics Services in Korea",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-development-of-an-open-software-platform-for-robotics-services-in-korea-16cd22dc.json",
+      "source_index": 49,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867946",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQUGRzTUF2WnFuRkU/view?usp=sharing&resourcekey=0-QoFM94j7k5ZcRmuR__hCpg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Ordered author list follows the manuscript first page, correcting omissions/order in the personal bibliography."
+      ]
+    },
+    {
+      "title": "In-Situ Annotation for AR Tour Service",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-in-situ-annotation-for-ar-tour-service-a81cbbee.json",
+      "source_index": 50,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867949",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQU2JVR0d6LVg4NGs/view?usp=sharing&resourcekey=0-c8es0DhoslqnyE1L2GocdA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Inertial Orientation Tracking for the Mixed Reality Applications",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-inertial-orientation-tracking-for-the-mixed-reality-applications-67b932a5.json",
+      "source_index": 51,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867950",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaFBNWFB4WFJiNGM/view?usp=sharing&resourcekey=0-t5lI6IIr_l17Oo70whSMsA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "S/W Framework in OPRoS Robot Platform",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-s-w-framework-in-opros-robot-platform-1800fe3b.json",
+      "source_index": 52,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867951",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQa1RiSEJHUUktZUE/view?usp=sharing&resourcekey=0-IQhLIa3dJBpL4qV6zygbgA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Activity Recognition Using Wearable Sensors for Elder Care",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-activity-recognition-using-wearable-sensors-for-elder-care-7e40101b.json",
+      "source_index": 53,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867973",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTEgzMWRudlBYZzg/view?usp=sharing&resourcekey=0-UEu6XviOAVlKX7gWOC6ilg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Development of Massive Data Transferring Method for UPnP based Robot Middleware",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-development-of-massive-data-transferring-method-for-upnp-based-robot-middleware-115d18d8.json",
+      "source_index": 54,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867981",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTUFFRklRM25BVjA/view?usp=sharing&resourcekey=0-cbmcZgc5Os251_4SGVYBzA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Experience Sharing in Tangible Web based on Lifelog",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-experience-sharing-in-tangible-web-based-on-lifelog-95b7d9e9.json",
+      "source_index": 55,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867988",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZ09lZjdRQWF3ZW8/view?usp=sharing&resourcekey=0-F3z_h_zAxl057kit8e-GUA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Robotic Technology Component with UPnP Communication (RTU Component)",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-robotic-technology-component-with-upnp-communication-rtu-component-58447da5.json",
+      "source_index": 56,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867989"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Tangible Tele-Meeting System with a Visually Augmented Robot",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-tangible-tele-meeting-system-with-a-visually-augmented-robot-2ba01a4c.json",
+      "source_index": 57,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867990",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQbXlMekNBOGUtVUE/view?usp=sharing&resourcekey=0-7mPBUd8EUCLADjWxXcbduw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Tangible Telemeeting System with Tangible Video Avatar and Large Display",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-tangible-telemeeting-system-with-tangible-video-avatar-and-large-display-48a65956.json",
+      "source_index": 58,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867991",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQbVVId0Z5dVV5azA/view?usp=sharing&resourcekey=0-EJka0KQ5oyVkAAQ24UGBAA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Augmented Robot Agent: Enhancing Co-Presence of the Remote Participant",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-augmented-robot-agent-enhancing-co-presence-of-the-remote-participant-254697e4.json",
+      "source_index": 59,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867994",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTl9Zb0J3N2FWWGc/view?usp=sharing&resourcekey=0-TJS3ZTGvCw8I1f6ndcl-Wg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Automatic ADL classification using 3-axial accelerometers and RFID sensor",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-automatic-adl-classification-using-3-axial-accelerometers-and-rfid-sensor-cc807d88.json",
+      "source_index": 60,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867996"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Automatic Lifelog Media Annotation based on Heterogeneous Sensor Fusion",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-automatic-lifelog-media-annotation-based-on-heterogeneous-sensor-fusion-e58edfe4.json",
+      "source_index": 61,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867999"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Large-Scale Stereo Display Wall Using Programmable Graphics Hardware",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-large-scale-stereo-display-wall-using-programmable-graphics-hardware-02d9f0f7.json",
+      "source_index": 62,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868011"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "ADL Classification Using Triaxial Accelerometers and RFID",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-adl-classification-using-triaxial-accelerometers-and-rfid-cd039a39.json",
+      "source_index": 63,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868032"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Tangible Video Avatar for Natural Tele-Interaction",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-tangible-video-avatar-for-natural-tele-interaction-b364d12c.json",
+      "source_index": 64,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868029",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQWURFSzRZR0dxMUE/view?usp=sharing&resourcekey=0-Lra16pe3Bm6S5rtJbry9IA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Towards Gapless Tangible Space",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-towards-gapless-tangible-space-9251da2a.json",
+      "source_index": 65,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868030",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQT1I1bkswdGNNWG8/view?usp=sharing&resourcekey=0-UAC1ysL8_CBu1ZeZLRF4nQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Localizing the users position in CAVE-like Display Cluster",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-localizing-the-users-position-in-cave-like-display-cluster-7b739580.json",
+      "source_index": 66,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868044",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQWG1CMWs5R2dCSjg/view?usp=sharing&resourcekey=0-DSal4fJ8iAENWgkX230uhw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Efficient Tiled Stereo Display System for Tangible Meeting",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-efficient-tiled-stereo-display-system-for-tangible-meeting-0faf7998.json",
+      "source_index": 67,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868062",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZldxa2t0Ymk5ZVE/view?usp=sharing&resourcekey=0-MdJyXblTWgQar78PpKI5BQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Human-Robot Interaction with Indoor Virtual Model",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-human-robot-interaction-with-indoor-virtual-model-75533f44.json",
+      "source_index": 68,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868063"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "UPnP Robot Middleware and its Application to Robots",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-upnp-robot-middleware-and-its-application-to-robots-bbb63350.json",
+      "source_index": 69,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868065",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQMjhrbXUydkNfSjA/view?usp=sharing&resourcekey=0-eLBzswatjpPM-_XPwuh0VQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Human - Robot Interaction with the Indoor Model of Virtual URS",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-human-robot-interaction-with-the-indoor-model-of-virtual-urs-9f544cb4.json",
+      "source_index": 70,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868077"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Personalized Life Log Media System in Ubiquitous Environment",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-personalized-life-log-media-system-in-ubiquitous-environment-0d6f49ed.json",
+      "source_index": 71,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868088",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZ0paUjVKdnhPOU0/view?usp=sharing&resourcekey=0-ZndGgqf992c9n0akAqxiZw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Real-time 3D Video Avatar in Mixed Reality: An Implementation for Immersive Telecommunication",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-real-time-3d-video-avatar-in-mixed-reality-an-implementation-for-immersive-telecommunication-cf418c4d.json",
+      "source_index": 72,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://pure.kaist.ac.kr/en/publications/real-time-3d-video-avatar-in-mixed-reality-an-implementation-for-/"
+      ],
+      "verification": [
+        "University publication record confirms title, four ordered authors, 2006 journal issue, DOI and KIST affiliation alongside Korea University."
+      ]
+    },
+    {
+      "title": "PERSONE: Personalized Experience Recoding and Searching on Networked Environment",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-persone-personalized-experience-recoding-and-searching-on-networked-environment-6af5cffa.json",
+      "source_index": 73,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868103",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQWFl0Nm1pY3lSLTg/view?usp=sharing&resourcekey=0-_XKmyFa2HTN-wrJ2tENOow"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Indoor Environment Modeling for Interactive Robot Security Application",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-indoor-environment-modeling-for-interactive-robot-security-application-cf79be52.json",
+      "source_index": 74,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868095"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Indoor Modeling for Interactive Robot Service",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-indoor-modeling-for-interactive-robot-service-7e2b01f3.json",
+      "source_index": 75,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868096"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "UPnP SDK for Robot Development",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-upnp-sdk-for-robot-development-31f6dfa8.json",
+      "source_index": 76,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868100",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQeTNUNUR2VkU4Q1U/view?usp=sharing&resourcekey=0-qfAPukVdY-xGP2qqqtNAQw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Research on Virtual URS and Its Service on Mobile Phone",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-research-on-virtual-urs-and-its-service-on-mobile-phone-739963f6.json",
+      "source_index": 77,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868097"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Ordered author list follows the registered KIST institutional record where the personal bibliography differs."
+      ]
+    },
+    {
+      "title": "UPnP Robot Middleware for Ubiquitous Robot Control",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-upnp-robot-middleware-for-ubiquitous-robot-control-58e0cc5f.json",
+      "source_index": 78,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868099",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQa0pFbGh4Rnp6WE0/view?usp=sharing&resourcekey=0-qN4AVZBIaQG2jSVcozmAIw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Flying display : autonomous blimp with real-time visual tracking and image projection",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-flying-display-autonomous-blimp-with-real-time-visual-tracking-and-image-projection-97b6db2c.json",
+      "source_index": 79,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868094",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQb29tWE9DWk9YMDA/view?usp=sharing&resourcekey=0-uuw597quBDmXYR8REN4Fbw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Requirements to UPnP for Robot Middleware",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-requirements-to-upnp-for-robot-middleware-8830ac14.json",
+      "source_index": 80,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868104",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaG5CS2FTOF8xWDQ/view?usp=sharing&resourcekey=0-pvNAfjNU6pCRFzF_q-i9lw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Using a Mobile Device as an Interface Tool for HMD-based AR Applications",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-using-a-mobile-device-as-an-interface-tool-for-hmd-based-ar-applications-a9b360f0.json",
+      "source_index": 81,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868126",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQYUhxU0RSdm03Zm8/view?usp=sharing&resourcekey=0-W9yKAEiWq4bv-K9uy1jNjA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Virtual Indoor Environment Modeling with Laser Scanner and Camera",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-virtual-indoor-environment-modeling-with-laser-scanner-and-camera-906b8abc.json",
+      "source_index": 82,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868127"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Using Mobile Phone as an Interface for Augmented Reality",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-using-mobile-phone-as-an-interface-for-augmented-reality-73ce9f2d.json",
+      "source_index": 83,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868124"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Real-time 3D Video Avatar for Tangible Interface",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-real-time-3d-video-avatar-for-tangible-interface-ba62699d.json",
+      "source_index": 84,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868130",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQSTVXR3kta1kxVVU/view?usp=sharing&resourcekey=0-eHd-GiwdfcnkPHCfoGkh_Q"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Ordered author list follows the manuscript first page, correcting omissions/order in the personal bibliography."
+      ]
+    },
+    {
+      "title": "Computer supported remote learning and gaming using Tele-Face Mouse system",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-computer-supported-remote-learning-and-gaming-using-tele-face-mouse-system-a67765d5.json",
+      "source_index": 85,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868138",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZWdXQzM1UTRjYjA/view?usp=sharing&resourcekey=0-efGXnT8tCq-gAaJ1x1HBmA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Intelligent 3D Video Avatar for Immersive Telecommunication",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-intelligent-3d-video-avatar-for-immersive-telecommunication-2ef944d0.json",
+      "source_index": 86,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868152",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQcHFHRF90ZWJZWlE/view?usp=sharing&resourcekey=0-NRwxFwsZBfyUE73yuvF_hQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Augmented Telexistence in Smart Space",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-augmented-telexistence-in-smart-space-fc914afd.json",
+      "source_index": 87,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868150",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQdU43WXVsWTJIbm8/view?usp=sharing&resourcekey=0-jLTJfVqDqY5DNBOgVYJOwg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Toward Immersive Telecommunication : 3D Video Avatar with Physical Interaction",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-toward-immersive-telecommunication-3d-video-avatar-with-physical-interaction-d4597a78.json",
+      "source_index": 88,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868154",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQOTA5X3ZVUTB1X2c/view?usp=sharing&resourcekey=0-_t64WF7P6oB3-ME_Fb0kKw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "A Simple and Easy 2D/3D Map Modeling of indoor environment",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-a-simple-and-easy-2d-3d-map-modeling-of-indoor-environment-9c23cca7.json",
+      "source_index": 89,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868156"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "A Computer Supported Tele-collaboration System",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-a-computer-supported-tele-collaboration-system-6b970a8c.json",
+      "source_index": 90,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868172",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQOUFrMTJkSzd3RTA/view?usp=sharing&resourcekey=0-cC_DMGB9pyYEiQcUz2fv_Q"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Network-based Tiled Display System for General Purpose",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-network-based-tiled-display-system-for-general-purpose-1180da27.json",
+      "source_index": 91,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868182",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQclplYk85eFMtTlk/view?usp=sharing&resourcekey=0-8necufqffnn-foAdPQeASw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Interactive Computer-aided Distance Learning System using the Face Mouse and shared Lecture-Space",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-interactive-computer-aided-distance-learning-system-using-the-face-mouse-and-shared-lecture-space-9b6ec7ea.json",
+      "source_index": 92,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868180",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQMWlQbGYxZGdxN0E/view?usp=sharing&resourcekey=0-zMrFzM9X-VK_swhx9QG_Ow"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Glasses Removal from Facial Image Using Recursive Error Compensation",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-glasses-removal-from-facial-image-using-recursive-error-compensation-50d80c22.json",
+      "source_index": 93,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868188",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQNlNKc0FvMU02c2M/view?usp=sharing&resourcekey=0-SA_fBSiDrH8NotW_MxdVDw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "UPnP Approach for Robot Middleware",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-upnp-approach-for-robot-middleware-86a22531.json",
+      "source_index": 94,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868189",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaExHSlNablIydVU/view?usp=sharing&resourcekey=0-3KcFaFN8od18Qep5z7STdg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "3-Dimensional Voice Communication System for Two User Groups",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-3-dimensional-voice-communication-system-for-two-user-groups-b45af35a.json",
+      "source_index": 95,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868190",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQb3Y3RklSRFFGZEk/view?usp=sharing&resourcekey=0-6o32qJUV98wLx7vwhqSPzQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Teleconference system with a shared working space and Face mouse interaction",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-teleconference-system-with-a-shared-working-space-and-face-mouse-interaction-ee3a6f34.json",
+      "source_index": 96,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868199",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQSk80c3pQdm9SZmM/view?usp=sharing&resourcekey=0-giDj-CVxZ_NXVlof-rAl2g"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "An Interactive Teleconference System for Small Groups",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-an-interactive-teleconference-system-for-small-groups-acbde8e4.json",
+      "source_index": 97,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868203",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTS1nYnJRemgtaGs/view?usp=sharing&resourcekey=0-Wso0grAY7idqHFn3_pphaA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Interactive Immersive Display",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-interactive-immersive-display-7b662f78.json",
+      "source_index": 98,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868207",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQelRzOHQwYmk2MlU/view?usp=sharing&resourcekey=0-3jkvD8R73lO0ccr98hDqBQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Ordered author list follows the manuscript first page, correcting omissions/order in the personal bibliography."
+      ]
+    },
+    {
+      "title": "Large Display Interaction using Video Avatar and Hand Gesture Recognition",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-large-display-interaction-using-video-avatar-and-hand-gesture-recognition-31facd21.json",
+      "source_index": 99,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868218",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQSmFLRUZGUkxfU28/view?usp=sharing&resourcekey=0-O93L3l6p8Z6sS6kQ4q2nGQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Active segmentation for immersive live avatar",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-active-segmentation-for-immersive-live-avatar-ecdd20ca.json",
+      "source_index": 100,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868217",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQM2x2MFM1U3Rqajg/view?usp=sharing&resourcekey=0-AfXJ9th9vWaL6vPKvV-2PQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript affiliation line on page 2 confirms all four authors at KIST."
+      ]
+    },
+    {
+      "title": "Real Time 3D Avatar for Interactive Mixed Reality",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-real-time-3d-avatar-for-interactive-mixed-reality-f84310fa.json",
+      "source_index": 101,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868226",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQcmRPbEJJNEI0cE0/view?usp=sharing&resourcekey=0-YSZoPcil1Ek-3-JtfSiLCA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Computer vision-based interactive presentation system",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-computer-vision-based-interactive-presentation-system-849d94fa.json",
+      "source_index": 102,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868241",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQbWlkbFlwRmQtTjA/view?usp=sharing&resourcekey=0-D5zJo7rFgkXaSWoorpB7-g"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Active IR Stereo vision based tracking system for immersive displays",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-active-ir-stereo-vision-based-tracking-system-for-immersive-displays-72db4784.json",
+      "source_index": 103,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868240",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZFp3MzZKU3NZWjA/view?usp=sharing&resourcekey=0-sfsWm7Ew2huSsrHWxi8Z7A"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Linked author manuscript uses a different draft title (for VR/AR Applications); public link points to the KIST record with the registered ACCV title.",
+        "Ordered author list follows the registered KIST institutional record where the personal bibliography differs."
+      ]
+    },
+    {
+      "title": "Networked 3D Virtual Museum System",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-networked-3d-virtual-museum-system-71267621.json",
+      "source_index": 104,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868273"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Glasses Removal from Facial Image using Recursive PCA Reconstruction",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-glasses-removal-from-facial-image-using-recursive-pca-reconstruction-f1441672.json",
+      "source_index": 105,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868266",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQYmwzV01kbDYtY3c/view?usp=sharing&resourcekey=0-OBJiTay_tW8NHp-LAJK1hQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Text extraction has broken font encoding; rendered first page was inspected to confirm title, author and KIST affiliation."
+      ]
+    },
+    {
+      "title": "Gyeongju VR Theater: A Journey into the Breath of Sorabol",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-gyeongju-vr-theater-a-journey-into-the-breath-of-sorabol-4f386289.json",
+      "source_index": 106,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868270",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQLXRmZUJVRGdmUWc/view?usp=sharing&resourcekey=0-nIKpjRrHhdgBTtiudQVZyw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Rendered published first page corrects Breath/Sorabol and includes the sixth author Taiyun Kim."
+      ]
+    },
+    {
+      "title": "Real time 3D live avatar for virtual heritage guide",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-real-time-3d-live-avatar-for-virtual-heritage-guide-01011ea5.json",
+      "source_index": 107,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868254"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "VR experience design in tangible space: Heritage Alive!",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-vr-experience-design-in-tangible-space-heritage-alive-84202bef.json",
+      "source_index": 109,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868262",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQTDF3YTJZeU92RDg/view?usp=sharing&resourcekey=0-stKsQI-f79vUmWBwZYY58Q"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Emerging virtual heritage technology",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-emerging-virtual-heritage-technology-443d74a3.json",
+      "source_index": 110,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868292"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Research on 3D cyber museum system through trans-eurasia information network",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-research-on-3d-cyber-museum-system-through-trans-eurasia-information-network-89e0a009.json",
+      "source_index": 111,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868323"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Toward a networked 3D virtual museum",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-toward-a-networked-3d-virtual-museum-48ae601c.json",
+      "source_index": 112,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868289"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "3D cyber museum technology: 3D modeling, database, presentation & network",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-3d-cyber-museum-technology-3d-modeling-database-presentation-network-9b1d46d2.json",
+      "source_index": 113,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868320"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "DBMS-based virtual heritage system",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-dbms-based-virtual-heritage-system-b43a8b1f.json",
+      "source_index": 114,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868305"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "The design and implementation of kyongju VR theatre",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-the-design-and-implementation-of-kyongju-vr-theatre-36207b93.json",
+      "source_index": 115,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868313",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQZzZwcl9YQWJRRms/view?usp=sharing&resourcekey=0-EqNDBZFqCAHP7mp1YsIsGw"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Stereo vision based 3D input device",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-stereo-vision-based-3d-input-device-cf7c0afe.json",
+      "source_index": 116,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868308",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaEY3NmdNcWM2MkU/view?usp=sharing&resourcekey=0-22smdrO5BcF5JH8_UKaCOQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Building a 3D Virtual Museum",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-building-a-3d-virtual-museum-c7bbf35b.json",
+      "source_index": 117,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868290"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Tangible Interface Technology",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-tangible-interface-technology-09842973.json",
+      "source_index": 118,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868296"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "The Making of Kyongju VR Theatre",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-the-making-of-kyongju-vr-theatre-f2a68d93.json",
+      "source_index": 119,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868314"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Glasses Removal from Facial Images with Recursive PCA Reconstruction",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-glasses-removal-from-facial-images-with-recursive-pca-reconstruction-23ad1c44.json",
+      "source_index": 120,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868303"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Audience Interaction for Virtual Reality Theater and Its Implementation",
+      "year": "2001",
+      "file": "content/publications/2026-10-07-ahn-audience-interaction-for-virtual-reality-theater-and-its-implementation-67b351a5.json",
+      "source_index": 121,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868327",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQaWhkZXlVeUpTSHM/view?usp=sharing&resourcekey=0-fjviBElsKvmcfFyPLXqWlQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "3D Tracking of Multi-objects using Color and Stereo for HCI",
+      "year": "2001",
+      "file": "content/publications/2026-10-07-ahn-3d-tracking-of-multi-objects-using-color-and-stereo-for-hci-bb884706.json",
+      "source_index": 122,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868329",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQQW1rNUcxcGpNd1k/view?usp=sharing&resourcekey=0-3A9Bj-gzEWwee1zbKh6QhA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page.",
+        "Text extraction has broken font encoding; rendered first page was inspected to confirm title, author and KIST affiliation."
+      ]
+    },
+    {
+      "title": "Virtual Heritage System: Modeling Database & Presentation",
+      "year": "2001",
+      "file": "content/publications/2026-10-07-ahn-virtual-heritage-system-modeling-database-presentation-8fbcac1f.json",
+      "source_index": 123,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868333",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQbnItVGlBN2txc0E/view?usp=sharing&resourcekey=0-XCd8kO9kE5IAnQSu6r8HgQ"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Web-based 3D Media Information System",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-web-based-3d-media-information-system-7c8f1b1f.json",
+      "source_index": 125,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868361",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQX3I3bDZfS19GazQ/view?usp=sharing&resourcekey=0-wCYc_blRbnwe32obtseH6A"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "3D Media Information System",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-3d-media-information-system-224df7b4.json",
+      "source_index": 126,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868366"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Automatic FDP/FAP Generation from an Image Sequence",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-automatic-fdp-fap-generation-from-an-image-sequence-b176d658.json",
+      "source_index": 127,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868374",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQVUROejhHN2xsVHc/view?usp=sharing&resourcekey=0-hx_Y51JO9n_kDifBx77lbA"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Development of image-based 3D modeling and authoring system",
+      "year": "1999",
+      "file": "content/publications/2026-10-07-ahn-development-of-image-based-3d-modeling-and-authoring-system-6d9fccb4.json",
+      "source_index": 128,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868399"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Development of 3D contents authoring system",
+      "year": "1999",
+      "file": "content/publications/2026-10-07-ahn-development-of-3d-contents-authoring-system-a9e64a5e.json",
+      "source_index": 129,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868394"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Automatic FDP (Facial Definition Parameters) Generation for a Video Conferencing System",
+      "year": "1999",
+      "file": "content/publications/2026-10-07-ahn-automatic-fdp-facial-definition-parameters-generation-for-a-video-conferencing-system-ba5bbae0.json",
+      "source_index": 130,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868391",
+        "https://drive.google.com/file/d/0ByTHAQqynXvQRGlJWmY0Z0k2anM/view?usp=sharing&resourcekey=0-7XwR2V8Zz0y17I5yj1gOvg"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record.",
+        "Author-hosted manuscript confirms KIST affiliation on the first page."
+      ]
+    },
+    {
+      "title": "Skin Region Extraction Using Moving Color Technique",
+      "year": "1998",
+      "file": "content/publications/2026-10-07-ahn-skin-region-extraction-using-moving-color-technique-7dc023aa.json",
+      "source_index": 133,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868422"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Multiresolution approach to depth extraction for arbitrary view synthesis",
+      "year": "1998",
+      "file": "content/publications/2026-10-07-ahn-multiresolution-approach-to-depth-extraction-for-arbitrary-view-synthesis-5fc329fc.json",
+      "source_index": 134,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868431"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Depth extraction of moving object using TMS320C80 DSP",
+      "year": "1998",
+      "file": "content/publications/2026-10-07-ahn-depth-extraction-of-moving-object-using-tms320c80-dsp-f99a32ff.json",
+      "source_index": 135,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868428"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Object Oriented Face Detection Using Range and Color Information",
+      "year": "1998",
+      "file": "content/publications/2026-10-07-ahn-object-oriented-face-detection-using-range-and-color-information-2573b7fa.json",
+      "source_index": 136,
+      "sources": [
+        "https://sites.google.com/view/asckist/publication",
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868444"
+      ],
+      "verification": [
+        "Exact title, author 안상철, year and venue in KIST CAI institutional publication record."
+      ]
+    },
+    {
+      "title": "Effect of using Walk-In-Place Interface for Panoramic Video Play in VR",
+      "year": "2016",
+      "file": "content/publications/2026-10-07-ahn-effect-of-using-walk-in-place-interface-for-panoramic-video-play-in-vr-2f54dd68.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867581"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "모바일 증강현실을 위한 특징점 인식, 추적 기술 및 사례 연구",
+      "year": "2015",
+      "file": "content/publications/2026-10-07-ahn-paper-a972027b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867617"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Insight: Webized Mobile AR and Real-life Use Cases",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-insight-webized-mobile-ar-and-real-life-use-cases-f30f11df.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867660"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "View Management for webized mobile AR contents",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-view-management-for-webized-mobile-ar-contents-7c33a3ec.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867661"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "A Map-based Web Search Interface Using Point of Interest Aggregation",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-a-map-based-web-search-interface-using-point-of-interest-aggregation-88d9407f.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867667"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "데스크탑 및 현장 환경이 결합된 AR 저작 프레임워크",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-ar-753432a0.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867669"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Collaborative AR Authoring Framework using Remote Panorama and In-situ Sensors",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-collaborative-ar-authoring-framework-using-remote-panorama-and-in-situ-sensors-b5e4770e.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867672"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "In-situ 및 Remote 환경 기반 3D 증강현실 콘텐츠 저작도구",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-in-situ-remote-3d-86b5ecbd.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867675"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Webizing mobile augmented reality content",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-webizing-mobile-augmented-reality-content-3b84834a.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867676"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "관심지점에 대한 한글어드바이스 추출 맵 인터페이스 : SVM을 이용한 한글어드바이스 추출 맵 인터페이스",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-svm-8a914b64.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867677"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "서적 정보 열람을 위한 웹 기반 증강현실 인터페이스",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-paper-f78d4f9b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867678"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "증강현실 기반 채점 시스템",
+      "year": "2014",
+      "file": "content/publications/2026-10-07-ahn-paper-3333ee60.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867680"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Web based Me-centric Resource Management System for Pervasive Environment",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-web-based-me-centric-resource-management-system-for-pervasive-environment-365e1b75.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867709"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "A comparative study of 3D Web integration models for the Sensor Web",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-a-comparative-study-of-3d-web-integration-models-for-the-sensor-web-d8a9425f.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867710"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Webizing Mobile AR Content",
+      "year": "2013",
+      "file": "content/publications/2026-10-07-ahn-webizing-mobile-ar-content-f3878a8b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867719"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "미러월드 (Mirror Worlds) 생성 기술",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-mirror-worlds-6615834b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867781"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "MIF: Framework Enhancing UX using Multimodal Interactioin for Mobile AR",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-mif-framework-enhancing-ux-using-multimodal-interactioin-for-mobile-ar-76c225f2.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867824"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "A New Approach to Calibrate Pseudolite Position using Multi-Antenna and Carrier Phase Measurement Without Cycle Ambiguity",
+      "year": "2011",
+      "file": "content/publications/2026-10-07-ahn-a-new-approach-to-calibrate-pseudolite-position-using-multi-antenna-and-carrier-phase-measurement-wi-2e4f9aec.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867830"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "상태감시컴포넌트를 사용한 OPRoS 프레임워크의 고장감내 기법",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-opros-b9ac5455.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867870"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "OPRoS 로봇의 상태 모니터링을 위한 Event Manager",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-opros-event-manager-b75881ee.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867876"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "UPnP 기반 로봇 미들웨어를 이용한 서빙 로봇 제어",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-upnp-85a20d82.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867878"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "서비스로봇의 신뢰성 향상을 위한 OPRoS 기반 Fault-tolerance 기법",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-opros-fault-tolerance-e5426afc.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867879"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "OPRoS 로봇 내부의 컴포넌트 관리 기술",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-opros-2a1e6f46.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867883"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Windows NT 운영체제의 제약사항을 고려한 OPRoS 실시간 컴포넌트 스케줄러의 설계",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-windows-nt-opros-0f7bf9ce.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867885"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "다중 로봇 제어를 위한 UDN 기반 로봇 컴포넌트 검색 기술",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-udn-a6b7073d.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867886"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "컴포넌트 기반 OPRoS 시스템의 Fault-tolerant 컴포넌트 확장 기법",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-opros-fault-tolerant-83bdaf6b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867888"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "IEEE 1394를 이용한 SBC 간의 UPnP 네트워크 구성 방법",
+      "year": "2010",
+      "file": "content/publications/2026-10-07-ahn-ieee-1394-sbc-upnp-57e756e6.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867892"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "OPRoS 표준 플랫폼의 고장감내기능의 설계 및 구현",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-opros-4a67e53e.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867938"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "로봇 서비스의 동적 재구성을 위한 Component Manager",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-component-manager-396cf70f.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867941"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Smart phone을 이용한 UPnP 로봇 구성",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-smart-phone-upnp-157125bd.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867943"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "UPnP 기반 로봇 미들웨어의 효율적 데이터 전송",
+      "year": "2009",
+      "file": "content/publications/2026-10-07-ahn-upnp-0eb618ee.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867961"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "하이테크 테마파크 영상관의 동향 및 전망",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-paper-e0791eb9.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867980"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "3차원 가속 센서 및 RFID 센서를 이용한 ADL 자동 분류",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-3-rfid-adl-0dcfad9b.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868008"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "VARU Framework: Enabling Rapid Prototyping of VR, AR and Ubiquitous Applications",
+      "year": "2008",
+      "file": "content/publications/2026-10-07-ahn-varu-framework-enabling-rapid-prototyping-of-vr-ar-and-ubiquitous-applications-fedd8836.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868017"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Tiled Stereo Display System for Immersive Telemeeting",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-tiled-stereo-display-system-for-immersive-telemeeting-ea1222ed.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868028"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Follow Me Follow You: Location Based Ubiquitous Communication Service Framework",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-follow-me-follow-you-location-based-ubiquitous-communication-service-framework-f9904192.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868043"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "HMD 기반 증강현실 응용을 위한 인터페이스",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-hmd-e9b73f93.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868071"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Web Based LifeLog Media System",
+      "year": "2007",
+      "file": "content/publications/2026-10-07-ahn-web-based-lifelog-media-system-0d7119d7.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868082"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "UPnP 기반 로봇 미들웨어",
+      "year": "2006",
+      "file": "content/publications/2026-10-07-ahn-upnp-ae7efa3e.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868142"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Modeling of Context-based Interaction Pattern",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-modeling-of-context-based-interaction-pattern-3f39bbe6.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868164"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Ubiquitous Smart Interaction Space",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-ubiquitous-smart-interaction-space-d3a6e180.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868165"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "유비쿼터스 시스템 환경에서의 상황인지와 오토노믹 컴퓨팅",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-paper-2178346d.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868166"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "The Interaction Framework for Context Aware Systems",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-the-interaction-framework-for-context-aware-systems-3b7abf92.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868177"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "원격 회의를 위한 Face mouse 상호작용과 공유된 작업 공간에 대한 연구",
+      "year": "2005",
+      "file": "content/publications/2026-10-07-ahn-face-mouse-e482984f.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868197"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "몰입형 원격 통신을 위한 실시간 3차원 비디오 아바타 구현",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-3-5d76f11e.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868222"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "반복적인 PCA 재구성을 이용한 얼굴 영상에서의 안경 제거",
+      "year": "2004",
+      "file": "content/publications/2026-10-07-ahn-pca-d5347b1a.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868232"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "VR theater 기반 VR contents의 사용성 평가 방법론에 대한 연구 : VR 답사 콘텐츠 heritage alive ! 의 사용성 평가를 중심으로",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-vr-theater-vr-contents-vr-heritage-alive-61317e43.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868246"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "가상 환경에서 다수의 실시간 비디오 아바타 생성 기법",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-paper-2cf6c219.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868274"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "실시간 워핑 하드웨어를 이용한 왜곡 스크린에서의 영상보정",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-paper-ef595a25.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868277"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "VR 극장을 위한 관객인터랙션",
+      "year": "2003",
+      "file": "content/publications/2026-10-07-ahn-vr-1b7d9bf7.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868283"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "스테레오 비전을 기반으로 한 3차원 입력장치",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-3-0a4c2cfd.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868304"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "복잡한 배경에서 MAWUPC 알고리즘을 이용한 얼굴과 손의 추적",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-mawupc-921a5507.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868315"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Stereo vision based 3D input device",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-stereo-vision-based-3d-input-device-96284335.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868318"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "반복적인 PCA 재구성 방법을 이용한 얼굴 영상에서의 안경제거",
+      "year": "2002",
+      "file": "content/publications/2026-10-07-ahn-pca-173fb722.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868319"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "스테레오 카메라를 이용한 3차원 입력장치 움직임의 실시간 추출",
+      "year": "2001",
+      "file": "content/publications/2026-10-07-ahn-3-cdbce149.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868334"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "복잡한 배경영역에서 MAWUPC 알고리즘을 이용한 손영역의 추적",
+      "year": "2001",
+      "file": "content/publications/2026-10-07-ahn-mawupc-d5b1a2fa.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868351"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "HCI를 위한 컴퓨터비젼 기반 사람의 2차원 움직임 정보 추출",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-hci-2-b183eaf5.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868357"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "컴퓨터비젼을 이용한 사람의 2차원 움직임 정보 추출",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-2-7f7ae538.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868362"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "MPEG-4 기반 3차원 얼굴 모델 애니메이션",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-mpeg-4-3-132eade6.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868380"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "실시간 LipSynch 구현을 위한 한국어 음운학적인 viseme 제안과 GMM 모델링 기반의 음소인식",
+      "year": "2000",
+      "file": "content/publications/2026-10-07-ahn-lipsynch-viseme-gmm-8e42500d.json",
+      "sources": [
+        "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868383"
+      ],
+      "verification": [
+        "Exact title, author 안상철, publication date and venue in KIST CAI institutional publication record. Native citation is retained where no verified English metadata is available."
+      ]
+    },
+    {
+      "title": "Fully Asymmetric Remote Collaboration System",
+      "year": "2019",
+      "file": "content/publications/2026-10-07-ahn-fully-asymmetric-remote-collaboration-system-11b57be1.json",
+      "sources": [
+        "https://sites.google.com/view/asckist/research",
+        "https://doi.org/10.1109/ACCESS.2019.2912397",
+        "https://www.researchgate.net/publication/332662591_Fully_Asymmetric_Remote_Collaboration_System"
+      ],
+      "verification": [
+        "Author-uploaded paper maps Sang Chul Ahn to KIST Center for Imaging Media Research and KIST School; IEEE-deposited metadata confirms ordered authors and 2019 publication."
+      ]
+    },
+    {
+      "title": "A Walking-in-Place Method for Virtual Reality Using Position and Orientation Tracking",
+      "year": "2018",
+      "file": "content/publications/2026-10-07-ahn-a-walking-in-place-method-for-virtual-reality-using-position-and-orientation-tracking-feff0b92.json",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30150586/",
+        "https://www.mdpi.com/1424-8220/18/9/2832"
+      ],
+      "verification": [
+        "Published article maps Sang Chul Ahn to KIST Center for Imaging Media Research and KIST School."
+      ]
+    }
+  ],
+  "already_present": [
+    {
+      "title": "RGBD Camera Based Material Recognition via Surface Roughness Estimation",
+      "file": "content/publications/0027.json"
+    },
+    {
+      "title": "Simultaneous Segmentation, Estimation and Analysis of Articulated Motion from Dense Point Cloud Sequence",
+      "file": "content/publications/0033.json"
+    },
+    {
+      "title": "Multi-body ICP: Motion Segmentation of Rigid Objects on Dense Point Clouds",
+      "file": "content/publications/0038.json"
+    },
+    {
+      "title": "Generalized Deformable Spatial Pyramid: Geometry-Preserving Dense Correspondence Estimation",
+      "file": "content/publications/0039.json"
+    },
+    {
+      "title": "Depth data-driven real-time articulated hand pose recognition",
+      "file": "content/publications/0042.json"
+    },
+    {
+      "title": "A Fast TGV-l1 RGB-D Flow Estimation",
+      "file": "content/publications/0041.json"
+    },
+    {
+      "title": "3D Deformable Spatial Pyramid for Dense 3D Motion Flow of Deformable Object",
+      "file": "content/publications/0040.json"
+    },
+    {
+      "title": "Interactive Retexturing from Unordered Images",
+      "file": "content/publications/0043.json"
+    },
+    {
+      "title": "RGB-D Fusion: Real-time Robust Tracking and Dense Mapping with RGB-D Data Fusion",
+      "file": "content/publications/0044.json"
+    },
+    {
+      "title": "Image Unprojection for 3D Surface Reconstruction: A Triangulation-based Approach",
+      "file": "content/publications/0046.json"
+    },
+    {
+      "title": "Spin Image Revisited: Fast Candidate Selection using Outlier Forest Search",
+      "file": "content/publications/0049.json"
+    },
+    {
+      "title": "Web Image-based Super-resolution",
+      "file": "content/publications/0050.json"
+    },
+    {
+      "title": "Putting Real-World Objects into Virtual World: Fast Automatic Creation of Animatable 3D models with a Consumer Depth Camera",
+      "file": "content/publications/0051.json"
+    },
+    {
+      "title": "Offline In-Hand 3D Modeling System Using Automatic Hand Removal and Improved Registration Method",
+      "file": "content/publications/0031.json"
+    },
+    {
+      "title": "Depth-based Fingertip Detection for Human-Projector Interaction on Tabletop Surfaces",
+      "file": "content/publications/0032.json"
+    },
+    {
+      "title": "Surface reflectance estimation and segmentation from single depth image of ToF camera",
+      "file": "content/publications/0034.json"
+    },
+    {
+      "title": "Embedded Deformation 기반 3D Flow Evaluation",
+      "file": "content/publications/0036.json"
+    },
+    {
+      "title": "일차 쌍대 알고리즘 기반 색상-깊이 광류 추정",
+      "file": "content/publications/0045.json"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Computational Complexity of General Fuzzy Logic Control and Its Simplification for a Loop Controller",
+      "reason": "Original manuscript lists Seoul National University, not KIST.",
+      "source": "https://drive.google.com/file/d/0ByTHAQqynXvQeWhVZmVNaVZFWWc/view?usp=sharing&resourcekey=0-KZff3IycSFRFas9rRPO_kw"
+    },
+    {
+      "title": "A fuzzy generalized predictive control using affine fuzzy predictors for nonlinear systems",
+      "reason": "Original manuscript lists Seoul National University, not KIST.",
+      "source": "https://drive.google.com/file/d/0ByTHAQqynXvQR0k5TnJZS3drRmc/view?usp=sharing&resourcekey=0-HTjUjU55HdTWXdQqMbPBWw"
+    },
+    {
+      "title": "Bounds in Algebraic Riccati and Lyapunov Equations : a Survey and Some New Results",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    },
+    {
+      "title": "Stability Analysis and Stabilization of Fuzzy State Space Models",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    },
+    {
+      "title": "Performance and Parameter Region for Real Time Use in IEEE 802.4 Token Bus Network",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    },
+    {
+      "title": "Design of a Fuzzy Logic Controller Module for a Loop Controller",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    },
+    {
+      "title": "Computational Complexity of Fuzzy Controllers and Its Application to a Real-time Loop Controller",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    },
+    {
+      "title": "On-line Tuning Method for a Timer-controlled Token Passing Network",
+      "reason": "Published before joining KIST in 1997.",
+      "source": "https://sites.google.com/view/asckist/publication"
+    }
+  ],
+  "pending": [
+    {
+      "title": "Creating a crowd video avatar in virtual heritage using short video clips",
+      "reason": "No accessible manuscript affiliation or exact KIST institutional publication record found."
+    },
+    {
+      "title": "Performance Degradation of the IEEE 802.4 Token Bus Network in a Noisy Environment",
+      "reason": "KIST affiliation at the time of this early publication has not been established; the current KIST bibliography alone is not sufficient."
+    },
+    {
+      "title": "Experiments on Depth from Magnification and Blurring",
+      "reason": "KIST affiliation at the time of this early publication has not been established; the current KIST bibliography alone is not sufficient."
+    },
+    {
+      "title": "Depth from Magnification and Blurring",
+      "reason": "KIST affiliation at the time of this early publication has not been established; the current KIST bibliography alone is not sufficient."
+    },
+    {
+      "title": "2차원 영상 기반 3차원 개인 얼굴 모델 생성 및 애니메이션",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868386",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "Trinocular 영상을 이용한 3D 얼굴 모델 자동 생성",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868397",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "인터액티브 가상환경을 위한 손 제스처 인식 시스템",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868401",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "Trinocular 영상을 이용한 3D 얼굴 모델 자동 생성",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868408",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "얼굴 특징점 추출 및 얼굴 모델 자동 생성",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868412",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "인터액티브 가상환경을 위한 손 제스처 인식 시스템",
+      "year": "1999",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868414",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "디지털 입체 영상 시스템 개발",
+      "year": "1998",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868449",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "색상 움직임을 이용한 실시간 얼굴 / 손 추적 알고리듬",
+      "year": "1998",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868450",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "Facial feature point tracking using moving color",
+      "year": "1998",
+      "source": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5868453",
+      "reason": "Additional early institutional record; manuscript author affiliation has not been independently verified."
+    },
+    {
+      "title": "Co-Recognition of Multiple Fingertips for Tabletop Human-Projector Interaction",
+      "doi": "10.1109/TMM.2018.2880608",
+      "reason": "Publisher author list and 2019 journal issue confirmed; accessible author-specific KIST affiliation remains unverified. This also remains pending in the original Hwasup Lim audit."
+    }
+  ],
+  "counts": {
+    "new_publications": 182,
+    "existing_publications_before": 41,
+    "existing_publications_after": 223,
+    "already_present": 18,
+    "excluded": 8,
+    "pending": 14
+  },
+  "limitations": [
+    "This is a verified import, not a claim that every publication ever written by this author has been found.",
+    "Early papers with uncertain KIST affiliation and one journal paper whose author-specific affiliation is inaccessible remain pending.",
+    "Original Google Scholar profile access remains blocked; primary author, institutional, publisher and conference sources were used.",
+    "Only metadata and links are added. Manuscripts, review submissions and local unpublished files are not copied into the public site."
+  ]
+}
