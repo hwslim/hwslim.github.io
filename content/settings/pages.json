@@ -9,6 +9,9 @@
   "news_title": "News & updates",
   "news_intro": "Research and updates from ERILab.",
   "news_empty": "Updates from our lab will appear here.",
+  "gallery_title": "Gallery",
+  "gallery_intro": "Group photos, lab events, and moments together at ERILab.",
+  "gallery_empty": "Photos from our lab will appear here.",
   "research_empty": "Research areas will be listed here.",
   "people_empty": "Our team will be introduced here.",
   "alumni_empty": "Alumni will be listed here."

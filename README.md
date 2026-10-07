@@ -2,12 +2,13 @@
 
 Embodied Robot Intelligence Lab, KIST Center for AI Research. Existing lab layout and public content migrated to the `hwslim/hwslim.github.io` Next.js static export project.
 
-- Public pages: Home, Research, People, Publications, News, Contact.
+- Public pages: Home, Research, People, Publications, News, Gallery, Contact.
 - Legacy routes `/researchers/`, `/research-areas/`, `/projects/` show the corresponding People/Research pages.
 - Homepage: research, Latest News, latest three publications; people are on the People page.
 - People: PI, Researchers, Interns, three student programs, Alumni. Student cards show the school below the name; program names appear in group headings. Researchers automatically sort by rank. Alumni show only name and destination.
 - Optional CV website/PDF, photos, email, schools, fixed-choice role/degree controls, and independent technical-service switch.
 - Publications: year groups, links, only Oral/Spotlight highlight badges.
+- Gallery: group and event photos, newest first, with dates, titles and optional captions. Photos open full-size and are managed in Admin.
 - Responsive CSS from the local site is retained.
 
 ## Local preview

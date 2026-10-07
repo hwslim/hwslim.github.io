@@ -115,6 +115,13 @@
               "default": "News"
             },
             {
+              "name": "nav_gallery",
+              "label": "Gallery 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Gallery"
+            },
+            {
               "name": "nav_contact",
               "label": "Contact 메뉴 이름",
               "widget": "string",
@@ -300,6 +307,27 @@
               "widget": "text",
               "required": false,
               "default": "Updates from our lab will appear here."
+            },
+            {
+              "name": "gallery_title",
+              "label": "갤러리 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Gallery"
+            },
+            {
+              "name": "gallery_intro",
+              "label": "갤러리 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "Group photos, lab events, and moments together at ERILab."
+            },
+            {
+              "name": "gallery_empty",
+              "label": "사진이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Photos from our lab will appear here."
             },
             {
               "name": "research_empty",
@@ -802,6 +830,72 @@
           "value_type": "int",
           "min": 0,
           "max": 9999
+        }
+      ]
+    },
+    {
+      "name": "gallery",
+      "label": "갤러리",
+      "folder": "content/gallery",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{date}} · {{title}}",
+      "sortable_fields": [
+        "date",
+        "title"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "title",
+          "label": "사진 제목",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "촬영일·행사 날짜",
+          "widget": "datetime",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false,
+          "format": "YYYY-MM-DD",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "사진",
+          "widget": "image",
+          "required": true,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ],
+          "hint": "단체 사진이나 행사 사진을 한 장씩 등록합니다. 사진당 10 MB 이하의 JPEG·PNG·WebP 파일을 사용하세요."
+        },
+        {
+          "name": "caption",
+          "label": "사진 설명",
+          "widget": "text",
+          "required": false
         }
       ]
     },

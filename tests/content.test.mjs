@@ -9,7 +9,7 @@ const fields = kind => config.collections.find(collection => collection.name ===
 const person = { name: 'Test Person', group: 'Researchers', education: 'Ph.D.', role: 'Postdoctoral Researcher', position: 0, special_service: false };
 
 test('all migrated records satisfy the same rules used by the editor', () => {
-  for (const kind of ['people', 'publications', 'research', 'news']) {
+  for (const kind of ['people', 'publications', 'research', 'news', 'gallery']) {
     for (const entry of getRecords(kind)) assert.doesNotThrow(() => validateEntry(kind, entry, fields(kind)));
   }
 });
@@ -63,4 +63,18 @@ test('unsafe links and invalid CV files are rejected before saving', () => {
 test('latest news and publication year ordering remain correct when records are added', () => {
   assert.deepEqual(sortRecords([{ id: '1', date: '2026-01-02' }, { id: '2', date: '2026-09-02' }], 'news').map(item => item.id), ['2', '1']);
   assert.deepEqual(sortRecords([{ id: '1', year: '2024' }, { id: '2', year: '2026' }], 'publications').map(item => item.id), ['2', '1']);
+});
+
+test('gallery requires a dated photo and displays newer events before older uploads', () => {
+  const photo = { title: 'Lab group photo', date: '2026-09-10', image: '/uploads/group.jpg' };
+  assert.doesNotThrow(() => validateEntry('gallery', photo, fields('gallery')));
+  for (const image of ['', '/uploads/cv.pdf', 'javascript:alert(1)']) {
+    assert.throws(() => validateEntry('gallery', { ...photo, image }, fields('gallery')));
+  }
+  assert.throws(() => validateEntry('gallery', { ...photo, date: '2026-02-30' }, fields('gallery')), /날짜/);
+  const photos = [
+    { ...photo, id: 'later-upload', date: '2025-12-20' },
+    { ...photo, id: 'earlier-upload', date: '2026-09-10' },
+  ];
+  assert.deepEqual(sortRecords(photos, 'gallery').map(item => item.id), ['earlier-upload', 'later-upload']);
 });

@@ -11,7 +11,7 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
       <a className="brand" href={sitePath('/')} aria-label={`${site.lab_name} home`}>
         {site.logo ? <img src={linkUrl(site.logo)} alt={site.lab_name} width="160" height="55" /> : <strong>{site.lab_name}</strong>}
       </a>
-      <nav className="site-nav" aria-label="Main navigation">{['home', 'research', 'people', 'publications', 'news', 'contact'].map(name =>
+      <nav className="site-nav" aria-label="Main navigation">{['home', 'research', 'people', 'publications', 'news', 'gallery', 'contact'].map(name =>
         <a key={name} href={sitePath(name === 'home' ? '/' : `/${name}/`)} aria-current={page === name ? 'page' : undefined}>{site[`nav_${name}`]}</a>)}</nav>
     </div></header>
     <main id="main">{children}</main>
@@ -68,4 +68,15 @@ export function NewsList({ entries }: { entries: Entry[] }) {
     <time dateTime={item.date}>{item.date}</time><div><h3>{linkUrl(item.link) ? <a href={linkUrl(item.link)} target="_blank" rel="noopener noreferrer">{item.title} ↗</a> : item.title}</h3>
     <p className="preserve-lines">{item.body}</p>{item.image && <img src={linkUrl(item.image)} alt={item.title} loading="lazy" />}</div>
   </article>)}</div>;
+}
+
+export function GalleryCards({ entries }: { entries: Entry[] }) {
+  return <div className="gallery-grid">{entries.map(item => <figure className="gallery-card" key={item.id}>
+    <a className="gallery-photo" href={linkUrl(item.image)} target="_blank" rel="noopener noreferrer" aria-label={`View ${item.title} full-size`}>
+      <img src={linkUrl(item.image)} alt={item.title} loading="lazy" />
+    </a>
+    <figcaption><time dateTime={item.date}>{item.date}</time><h2>{item.title}</h2>
+      {item.caption && <p className="preserve-lines">{item.caption}</p>}
+    </figcaption>
+  </figure>)}</div>;
 }
