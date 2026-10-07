@@ -16,8 +16,11 @@
 # next.js
 /.next/
 
-# The `out` directory should not be ignored by version control
-# /out/
+/out/
+
+# OAuth credentials stay in Cloudflare Workers
+/auth-worker/.dev.vars*
+/auth-worker/.wrangler/
 
 # production
 /build

@@ -1,0 +1,20 @@
+{
+  "people": 9,
+  "publications": 41,
+  "research": 2,
+  "news": 0,
+  "source": "Existing local ERILab database",
+  "exported_settings": [
+    "site",
+    "home",
+    "pages",
+    "contact"
+  ],
+  "public_assets": [
+    "/assets/brand/erilab-logo-v2.png",
+    "/assets/people/hwasup-lim.png",
+    "/assets/people/sang-chul-ahn.png",
+    "/assets/people/soomin-kim.png",
+    "/assets/people/tackgeun-you.png"
+  ]
+}

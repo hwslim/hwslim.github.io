@@ -1,0 +1,968 @@
+{
+  "checked_on": "2026-10-07",
+  "author": "Hwasup Lim (임화섭)",
+  "institution": "Korea Institute of Science and Technology (KIST)",
+  "requested_scholar_profile": "https://scholar.google.com/citations?hl=ko&user=jA1KmF0AAAAJ",
+  "inclusion_rule": "임화섭 저자의 KIST 소속을 원문·출판사 저자별 메타데이터·공식 학회 프로그램으로 확인하거나, KIST 인공지능연구단 공식 논문 게시판의 저자 포함 기록으로 확인한다. KIST School, UST도 포함한다. 이메일에 kist가 있다는 사실만으로 공저자 전체의 소속을 판단하지 않는다.",
+  "deduplication_rule": "동일 논문의 프리프린트와 학회·저널 출판본은 하나로 합치고, 최종 학회·저널의 발표 연도를 사용한다. 특허는 논문 목록에 넣지 않는다.",
+  "coverage_note": "Google Scholar 프로필의 직접 열람은 HTTP 403으로 차단되어 전체 목록 대조와 각 항목의 해당 프로필 수록 여부를 완료하지 못했다. KIST 공식 게시판, 원문, 출판사 메타데이터와 저자 공개 자료에서 확인한 항목을 등록한 목록이며 누락이 없다고 보장하지 않는다.",
+  "included": [
+    {
+      "record": {
+        "title": "Real-Time Execution with Autoregressive Policies",
+        "authors": "Sangkyu Lee, Seohyeon Park, Tackgeun You, Avi Caciularu, Idan Szpektor, Hwasup Lim, Youngjae Yu",
+        "venue": "Conference on Robot Learning (CoRL)",
+        "year": "2026",
+        "status": "Accepted",
+        "paper_url": "https://arxiv.org/abs/2606.13355",
+        "code_url": "",
+        "project_url": "https://oddqueue.github.io/realfast/",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "author_project_page",
+        "url": "https://oddqueue.github.io/realfast/",
+        "note": "프로젝트 페이지와 논문 첫 페이지에서 Hwasup Lim의 소속 번호 1이 KIST를 가리킴. 공동 저자 Tackgeun You의 홈페이지에 To Appear in CoRL 2026으로 명시됨."
+      },
+      "additional_sources": [
+        "https://tackgeun.github.io/"
+      ]
+    },
+    {
+      "record": {
+        "title": "Spanning Tree Autoregressive Visual Generation",
+        "authors": "Sangkyu Lee, Changho Lee, Janghoon Han, Hosung Song, Tackgeun You, Hwasup Lim, Stanley Jungkyu Choi, Honglak Lee, Youngjae Yu",
+        "venue": "European Conference on Computer Vision (ECCV)",
+        "year": "2026",
+        "status": "",
+        "paper_url": "https://arxiv.org/abs/2511.17089",
+        "code_url": "https://github.com/oddqueue/star",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://arxiv.org/pdf/2511.17089",
+        "note": "첫 페이지에서 Hwasup Lim의 소속 번호 2가 Korea Institute of Science and Technology를 가리킴. arXiv v2에 ECCV 2026 main conference paper로 명시되어 2025 프리프린트와 합침."
+      },
+      "additional_sources": [
+        "https://arxiv.org/abs/2511.17089",
+        "https://tackgeun.github.io/"
+      ]
+    },
+    {
+      "record": {
+        "title": "Splatter Layout: Geometry-embedded 3D Reconstruction via Surface Unfolding",
+        "authors": "Bryan Heryanto, Tackgeun You, Chanwoo Kim, Hwasup Lim",
+        "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 7709–7718",
+        "year": "2026",
+        "status": "",
+        "paper_url": "https://openaccess.thecvf.com/content/WACV2026/html/Heryanto_Splatter_Layout_Geometry-embedded_3D_Reconstruction_via_Surface_Unfolding_WACV_2026_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1109/WACV61042.2026.00744",
+      "evidence": {
+        "kind": "publisher_deposited_metadata",
+        "url": "https://api.crossref.org/works/10.1109/WACV61042.2026.00744",
+        "note": "IEEE가 제공한 Crossref 메타데이터의 Hwasup Lim 저자 소속에 Korea Institute of Science and Technology (KIST)가 명시됨."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Text-Controlled 4D Human Generation",
+        "authors": "Chanwoo Kim, Sanghun Kim, Hwasup Lim",
+        "venue": "Journal of The Korea Society of Computer and Information, 31(4), pp. 55–66",
+        "year": "2026",
+        "status": "",
+        "paper_url": "https://journal.kci.go.kr/jksci/archive/articleView?artiId=ART003329458",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "3"
+      },
+      "doi": "10.9708/jksci.2026.31.04.055",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://journal.kci.go.kr/jksci/archive/articlePdf?artiId=ART003329458",
+        "note": "첫 페이지의 Hwasup Lim 소속은 Dept. of AI-Robotics, KIST School, University of Science and Technology (UST), 이메일은 hslim@kist.re.kr임."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Robust 3D Human Reconstruction System From Sparse Views in Outdoor Environments",
+        "authors": "Hansoo Park, Soomin Kim, Bryan Heryanto, Hwasup Lim",
+        "venue": "IEEE Access, 13, pp. 48034–48046",
+        "year": "2025",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ACCESS.2025.3544877",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/ACCESS.2025.3544877",
+      "evidence": {
+        "kind": "publisher_deposited_metadata",
+        "url": "https://api.crossref.org/works/10.1109/ACCESS.2025.3544877",
+        "note": "IEEE가 제공한 Crossref 메타데이터의 Hwasup Lim 소속은 Center for Artificial Intelligence Research, Korea Institute of Science and Technology임."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "ContactField: Implicit Field Representation for Multi-Person Interaction Geometry",
+        "authors": "Hansol Lee, Tackgeun You, Hansoo Park, Woohyeon Shim, Sanghyeon Kim, Hwasup Lim",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/435422305988b73c6cc00bcb29ba2531-Paper-Conference.pdf",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/435422305988b73c6cc00bcb29ba2531-Paper-Conference.pdf",
+        "note": "첫 페이지에 Hwasup Lim, hslim@kist.re.kr 및 Center for Artificial Intelligence Research, Korea Institute of Science and Technology가 함께 명시됨."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Diverse Humanoid Robot Pose Estimation from Images Using Only Sparse Datasets",
+        "authors": "Seokhyeon Heo, Youngdae Cho, Jeongwoo Park, Seokhyun Cho, Ziya Tsoy, Hwasup Lim, Youngwoon Cha",
+        "venue": "Applied Sciences, 14(19), 9042",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://www.mdpi.com/2076-3417/14/19/9042",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.3390/app14199042",
+      "evidence": {
+        "kind": "author_project_page",
+        "url": "https://xrlabku.webflow.io/papers/diverse-humanoid-robot-pose-estimation-using-only-sparse-datasets",
+        "note": "연구팀의 프로젝트 페이지에서 Hwasup Lim의 소속 번호 3이 Korea Institute of Science and Technology를 가리킴."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Full-Body Pose Estimation of Humanoid Robots Using Head-Worn Cameras for Digital Human-Augmented Robotic Telepresence",
+        "authors": "Youngdae Cho, Wooram Son, Jaewan Bak, Yisoo Lee, Hwasup Lim, Youngwoon Cha",
+        "venue": "Mathematics, 12(19), 3039",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://www.mdpi.com/2227-7390/12/19/3039",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.3390/math12193039",
+      "evidence": {
+        "kind": "publisher_article",
+        "url": "https://www.mdpi.com/2227-7390/12/19/3039",
+        "note": "출판사 논문 페이지의 Hwasup Lim 소속 번호 3이 KIST 인공지능연구단을 가리킴."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Bidirectional Temporal Diffusion Model for Temporally Consistent Human Animation",
+        "authors": "Tserendorj Adiya, Jae Shin Yoon, Jungeun Lee, Sanghun Kim, Hwasup Lim",
+        "venue": "International Conference on Learning Representations (ICLR)",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://arxiv.org/abs/2307.00574",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "3"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://arxiv.org/pdf/2307.00574",
+        "note": "ICLR 2024 출판본 첫 페이지에서 Hwasup Lim의 소속 번호 1이 Korea Institute of Science and Technology를 가리킴. 2023 프리프린트와 합침."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Improving Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with People Matching and Unsupervised 2D-3D Lifting",
+        "authors": "Pawel Knap, Peter Hardy, Alberto Tamajo, Hwasup Lim, Hansung Kim",
+        "venue": "International Conference on Electronics, Information, and Communication (ICEIC)",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://arxiv.org/abs/2403.09437",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "4"
+      },
+      "doi": "10.1109/ICEIC61013.2024.10457094",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://arxiv.org/pdf/2403.09437",
+        "note": "첫 페이지의 Hwasup Lim 소속이 Korean Institute of Science and Technology로 기재되어 있고 이메일은 hslim@kist.re.kr임. 출판사 DOI의 ICEIC 2024 학회 기록과 프리프린트를 합침."
+      },
+      "additional_sources": [
+        "https://doi.org/10.1109/ICEIC61013.2024.10457094"
+      ]
+    },
+    {
+      "record": {
+        "title": "PIDiffu: Pixel-aligned Diffusion Model for High-Fidelity Clothed Human Reconstruction",
+        "authors": "Jungeun Lee, Sanghun Kim, Hansol Lee, Tserendorj Adiya, Hwasup Lim",
+        "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 5160–5169",
+        "year": "2024",
+        "status": "",
+        "paper_url": "https://openaccess.thecvf.com/content/WACV2024/html/Lee_PIDiffu_Pixel-Aligned_Diffusion_Model_for_High-Fidelity_Clothed_Human_Reconstruction_WACV_2024_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "5"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Lee_PIDiffu_Pixel-Aligned_Diffusion_Model_for_High-Fidelity_Clothed_Human_Reconstruction_WACV_2024_paper.pdf",
+        "note": "CVF 원문 첫 페이지에 KIST 소속과 Hwasup Lim 저자, hslim 이메일이 명시됨."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "View-independent gait events detection using CNN-transformer hybrid network",
+        "authors": "Ankhzaya Jamsrandorj, Dawoon Jung, Konki Sravan Kumar, Muhammad Zeeshan Arshad, Hwasup Lim, Jinwook Kim, Kyung-Ryoul Mun",
+        "venue": "Journal of Biomedical Informatics, 147, 104524",
+        "year": "2023",
+        "status": "",
+        "paper_url": "https://doi.org/10.1016/j.jbi.2023.104524",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1016/j.jbi.2023.104524",
+      "evidence": {
+        "kind": "indexed_original_article_metadata",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37838288/",
+        "note": "PubMed의 저자별 소속에서 Hwasup Lim의 소속 번호 2가 Center for Artificial Intelligence, Korea Institute of Science and Technology를 가리킴."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Feasibility Analysis of Deep Learning-Based Reality Assessment of Human Back-View Images",
+        "authors": "Young Chan Kwon, Jae Won Jang, Hwasup Lim, Ouk Choi",
+        "venue": "Electronics, 9(4), 656",
+        "year": "2020",
+        "status": "",
+        "paper_url": "https://www.mdpi.com/2079-9292/9/4/656",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.3390/electronics9040656",
+      "evidence": {
+        "kind": "author_shared_original_paper",
+        "url": "https://www.researchgate.net/publication/340707525_Feasibility_Analysis_of_Deep_Learning-Based_Reality_Assessment_of_Human_Back-View_Images",
+        "note": "공개된 원문 첫 페이지의 Hwasup Lim 소속 번호 2가 KIST를 가리킴. ResearchGate의 현재 프로필 소속으로 판단하지 않았음."
+      },
+      "additional_sources": [
+        "https://sites.google.com/site/cvmllab/publications"
+      ]
+    },
+    {
+      "record": {
+        "title": "CNN-Based Denoising, Completion, and Prediction of Whole-Body Human-Depth Images",
+        "authors": "Jae Won Jang, Young Chan Kwon, Hwasup Lim, Ouk Choi",
+        "venue": "IEEE Access, 7, pp. 175842–175856",
+        "year": "2019",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ACCESS.2019.2957862",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/ACCESS.2019.2957862",
+      "evidence": {
+        "kind": "author_shared_original_paper",
+        "url": "https://www.researchgate.net/publication/337775036_CNN-Based_Denoising_Completion_and_Prediction_of_Whole-Body_Human-Depth_Images",
+        "note": "공개된 원문 첫 페이지의 Hwasup Lim 소속 번호 2가 KIST를 가리킴. 현재 프로필 소속과 분리하여 확인함."
+      },
+      "additional_sources": [
+        "https://sites.google.com/site/cvmllab/publications"
+      ]
+    },
+    {
+      "record": {
+        "title": "IR Surface Reflectance Estimation and Material Type Recognition Using Two-stream Net and Kinect Camera",
+        "authors": "SeokYeong Lee, HwaSup Lim, SangChul Ahn, SeungKyu Lee",
+        "venue": "ACM SIGGRAPH Posters, 43:1–43:2",
+        "year": "2019",
+        "status": "Poster",
+        "paper_url": "https://doi.org/10.1145/3306214.3338557",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.1145/3306214.3338557",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://history.siggraph.org/wp-content/uploads/2021/10/2019-43-Lee_IR-Surface-Reflectance-Estimation.pdf",
+        "note": "SIGGRAPH 원문 첫 페이지에서 HwaSup Lim의 소속이 Center for Imaging Media Research, KIST로 명시됨. 원문의 이름 표기를 유지함."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Rapid 3D Avatar Creation System Using a Single Depth Camera",
+        "authors": "Hwasup Lim, Junseok Kang, Sang Chul Ahn",
+        "venue": "IEEE Conference on Virtual Reality and 3D User Interfaces (VR), pp. 1329–1330",
+        "year": "2019",
+        "status": "Demo",
+        "paper_url": "https://doi.org/10.1109/VR.2019.8798353",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1109/VR.2019.8798353",
+      "evidence": {
+        "kind": "official_conference_program",
+        "url": "https://ieeevr.org/2019/program/demos.html",
+        "note": "공식 IEEE VR 데모 프로그램에 Hwasup Lim의 소속이 Korea Institute of Science and Technology로 명시됨."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "RGBD Camera Based Material Recognition via Surface Roughness Estimation",
+        "authors": "Jungjun Kim, Hwasup Lim, Sang Chul Ahn, Seungkyu Lee",
+        "venue": "IEEE Winter Conference on Applications of Computer Vision (WACV), pp. 1963–1971",
+        "year": "2018",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/WACV.2018.00217",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/WACV.2018.00217",
+      "evidence": {
+        "kind": "official_conference_program",
+        "url": "https://www.proceedings.com/content/039/039293webtoc.pdf",
+        "note": "학회 프로그램의 해당 논문 저자 목록에 Hwasup Lim (KIST)로 명시됨."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Cascaded Fingertip Detection and Classification for Human-Projector Interaction on Tabletop Surfaces",
+        "authors": "Ouk Choi, Young-Jun Son, Hwasup Lim, Sang Chul Ahn",
+        "venue": "International Conference on Electronics, Information, and Communication (ICEIC), pp. 1275–1278",
+        "year": "2018",
+        "status": "",
+        "paper_url": "https://iceic2018.cau.ac.kr/Resource/ICEIC2018ProgramBook.pdf",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_conference_program",
+        "url": "https://iceic2018.cau.ac.kr/Resource/ICEIC2018ProgramBook.pdf",
+        "note": "공식 ICEIC 프로그램에서 Hwasup Lim의 소속 번호 2가 Korea Institute of Science and Technology를 가리킴."
+      },
+      "additional_sources": [
+        "https://sites.google.com/site/cvmllab/publications"
+      ]
+    },
+    {
+      "record": {
+        "title": "Fast and robust 3D textured model reconstruction on mobile platforms",
+        "authors": "Hyeonseok Yang, Hwasup Lim",
+        "venue": "International Conference on Electronics, Information, and Communication (ICEIC)",
+        "year": "2018",
+        "status": "",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867533",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867533",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": [
+        "https://iceic2018.cau.ac.kr/Resource/ICEIC2018ProgramBook.pdf"
+      ]
+    },
+    {
+      "record": {
+        "title": "ThirdLight: Low-cost and High-speed 3D Interaction Using Photosensor Markers",
+        "authors": "Jaewon Kim, Gyuchull Han, Hwasup Lim, Shahram Izadi, Abhijeet Ghosh",
+        "venue": "European Conference on Visual Media Production (CVMP), 4:1–4:10",
+        "year": "2017",
+        "status": "",
+        "paper_url": "https://doi.org/10.1145/3150165.3150169",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1145/3150165.3150169",
+      "evidence": {
+        "kind": "publisher_deposited_metadata",
+        "url": "https://api.crossref.org/works/10.1145/3150165.3150169",
+        "note": "ACM이 제공한 Crossref 메타데이터의 Hwasup Lim 소속이 Korea Institute of Science and Technology로 명시됨. title과 subtitle을 함께 사용함."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Offline In-Hand 3D Modeling System Using Automatic Hand Removal and Improved Registration Method",
+        "authors": "Junseok Kang, Hyeonseok Yang, Hwasup Lim, Sang Chul Ahn",
+        "venue": "Journal of the HCI Society of Korea, 12(3), pp. 13–23",
+        "year": "2017",
+        "status": "",
+        "paper_url": "https://doi.org/10.17210/jhsk.2017.08.12.3.13",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.17210/jhsk.2017.08.12.3.13",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867549",
+        "note": "KIST 공식 게시판의 한국어 원제와 저자 목록을 확인하고, 출판사의 공식 영문 제목과 저자 표기를 사용함."
+      },
+      "additional_sources": [
+        "https://api.crossref.org/works/10.17210/jhsk.2017.08.12.3.13",
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002253210"
+      ]
+    },
+    {
+      "record": {
+        "title": "Depth-based Fingertip Detection for Human-Projector Interaction on Tabletop Surfaces",
+        "authors": "Young-Jun Son, Ouk Choi, Hwasup Lim, Sang Chul Ahn",
+        "venue": "IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)",
+        "year": "2016",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ICCE-Asia.2016.7804809",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/ICCE-Asia.2016.7804809",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867580",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Simultaneous Segmentation, Estimation and Analysis of Articulated Motion from Dense Point Cloud Sequence",
+        "authors": "Youngji Kim, Hwasup Lim, Sang Chul Ahn, Ayoung Kim",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 1085–1092",
+        "year": "2016",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/IROS.2016.7759184",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.1109/IROS.2016.7759184",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867582",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Surface reflectance estimation and segmentation from single depth image of ToF camera",
+        "authors": "Seungkyu Lee, Jungjun Kim, Hwasup Lim, Sang Chul Ahn",
+        "venue": "Signal Processing: Image Communication, 47, pp. 452–462",
+        "year": "2016",
+        "status": "",
+        "paper_url": "https://doi.org/10.1016/j.image.2016.07.006",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1016/j.image.2016.07.006",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867586",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Extensible Multiplex Real-time PCR of MicroRNA Using Microparticles",
+        "authors": "Seungwon Jung, Junsun Kim, Dong Jin Lee, Eun Hae Oh, Hwasup Lim, Kwang Pyo Kim, Nakwon Choi, Tae Song Kim, Sang Kyung Kim",
+        "venue": "Scientific Reports, 6, 22975",
+        "year": "2016",
+        "status": "",
+        "paper_url": "https://doi.org/10.1038/srep22975",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "3"
+      },
+      "doi": "10.1038/srep22975",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867601",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": [
+        "https://www.nature.com/articles/srep22975"
+      ]
+    },
+    {
+      "record": {
+        "title": "Embedded Deformation 기반 3D Flow Evaluation",
+        "authors": "장인엽, 임화섭, 안상철",
+        "venue": "Workshop on Image Processing and Image Understanding (IPIU)",
+        "year": "2016",
+        "status": "Workshop",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867603",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "4"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867603",
+        "note": "KIST 공식 게시판의 국내 워크숍 논문. 확인되지 않은 영문 제목·저자 로마자 표기를 만들지 않고 원문 표기를 유지함."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Robust Binarization of Gray-Coded Pattern Images for Smart Projectors",
+        "authors": "Ouk Choi, Hwasup Lim, Sang Chul Ahn",
+        "venue": "International Conference on Electronics, Information, and Communication (ICEIC)",
+        "year": "2016",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ELINFOCOM.2016.7562992",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "5"
+      },
+      "doi": "10.1109/ELINFOCOM.2016.7562992",
+      "evidence": {
+        "kind": "official_conference_program",
+        "url": "https://www.proceedings.com/content/031/031589webtoc.pdf",
+        "note": "학회 프로그램의 해당 논문에서 Hwasup Lim의 소속 번호 2가 Korea Institute of Science and Technology를 가리킴."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Multi-body ICP: Motion Segmentation of Rigid Objects on Dense Point Clouds",
+        "authors": "Youngji Kim, Hwasup Lim, Sang Chul Ahn",
+        "venue": "International Conference on Ubiquitous Robots and Ambient Intelligence (URAI), pp. 532–536",
+        "year": "2015",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/URAI.2015.7358823",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/URAI.2015.7358823",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867622",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Generalized Deformable Spatial Pyramid: Geometry-Preserving Dense Correspondence Estimation",
+        "authors": "Junhwa Hur, Hwasup Lim, Changsoo Park, Sang Chul Ahn",
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1392–1400",
+        "year": "2015",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/CVPR.2015.7298745",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.1109/CVPR.2015.7298745",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867628",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": [
+        "https://openaccess.thecvf.com/content_cvpr_2015/papers/Hur_Generalized_Deformable_Spatial_2015_CVPR_paper.pdf"
+      ]
+    },
+    {
+      "record": {
+        "title": "3D Deformable Spatial Pyramid for Dense 3D Motion Flow of Deformable Object",
+        "authors": "Junhwa Hur, Hwasup Lim, Sang Chul Ahn",
+        "venue": "International Symposium on Visual Computing (ISVC), pp. 118–127",
+        "year": "2014",
+        "status": "",
+        "paper_url": "https://doi.org/10.1007/978-3-319-14249-4_12",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1007/978-3-319-14249-4_12",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867644",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "A Fast TGV-l1 RGB-D Flow Estimation",
+        "authors": "Junha Roh, Hwasup Lim, Sang Chul Ahn",
+        "venue": "International Symposium on Visual Computing (ISVC), pp. 151–161",
+        "year": "2014",
+        "status": "",
+        "paper_url": "https://doi.org/10.1007/978-3-319-14249-4_15",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.1007/978-3-319-14249-4_15",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867645",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Depth Data-Driven Real-Time Articulated Hand Pose Recognition",
+        "authors": "Young-Woon Cha, Hwasup Lim, Min-Hyuk Sung, Sang Chul Ahn",
+        "venue": "International Symposium on Visual Computing (ISVC), pp. 492–501",
+        "year": "2014",
+        "status": "",
+        "paper_url": "https://doi.org/10.1007/978-3-319-14364-4_47",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1007/978-3-319-14364-4_47",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867646",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Interactive Retexturing from Unordered Images",
+        "authors": "Jong-Ho Lee, Hwasup Lim, Seong-Oh Lee, Young-Woon Cha, Hyoung-Gon Kim, Sang Chul Ahn",
+        "venue": "International Conference on Ubiquitous Robots and Ambient Intelligence (URAI), pp. 18–21",
+        "year": "2014",
+        "status": "",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867653",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "3"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867653",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "RGB-D Fusion: Real-time Robust Tracking and Dense Mapping with RGB-D Data Fusion",
+        "authors": "Seong-Oh Lee, Hwasup Lim, Hyoung-Gon Kim, Sang Chul Ahn",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 2749–2754",
+        "year": "2014",
+        "status": "",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867657",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "4"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867657",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "일차 쌍대 알고리즘 기반 색상-깊이 광류 추정",
+        "authors": "노준하, 임화섭, 안상철",
+        "venue": "Workshop on Image Processing and Image Understanding (IPIU)",
+        "year": "2014",
+        "status": "Workshop",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867679",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "5"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867679",
+        "note": "KIST 공식 게시판의 국내 워크숍 논문. 확인되지 않은 영문 제목·저자 로마자 표기를 만들지 않고 원문 표기를 유지함."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Image Unprojection for 3D Surface Reconstruction: A Triangulation-based Approach",
+        "authors": "Min-Hyuk Sung, Hwasup Lim, Hyoung-Gon Kim, Sang Chul Ahn",
+        "venue": "IEEE International Conference on Image Processing (ICIP), pp. 161–165",
+        "year": "2013",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ICIP.2013.6738034",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "10.1109/ICIP.2013.6738034",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867703",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Interframe consistent multifrequency phase unwrapping for time-of-flight cameras",
+        "authors": "Ouk Choi, Seungkyu Lee, Hwasup Lim",
+        "venue": "Optical Engineering, 52(5), 057005",
+        "year": "2013",
+        "status": "",
+        "paper_url": "https://doi.org/10.1117/1.OE.52.5.057005",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "10.1117/1.OE.52.5.057005",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867715",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Poster: Real Time Hand Pose Recognition with Depth Sensors for Mixed Reality Interfaces",
+        "authors": "Byungkyu Kang, Mathieu Rodrigue, Tobias Höllerer, Hwasup Lim",
+        "venue": "IEEE Symposium on 3D User Interfaces (3DUI), pp. 171–172",
+        "year": "2013",
+        "status": "Poster",
+        "paper_url": "https://doi.org/10.1109/3DUI.2013.6550233",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1109/3DUI.2013.6550233",
+      "evidence": {
+        "kind": "original_paper",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f696c87e4c1f2d87eb020a82c62bf3343cdc54f4&repid=rep1&type=pdf",
+        "note": "원문 첫 페이지의 Hwasup Lim 소속 번호 2가 KIST를 가리키고 이메일은 hslim@imrc.kist.re.kr임."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Spin Image Revisited: Fast Candidate Selection Using Outlier Forest Search",
+        "authors": "Young-Woon Cha, Hwasup Lim, Seong-Oh Lee, Hyoung-Gon Kim, Sang Chul Ahn",
+        "venue": "Asian Conference on Computer Vision (ACCV) Workshops, pp. 209–222",
+        "year": "2012",
+        "status": "",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867727",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "0"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867727",
+        "note": "KIST 공식 게시판의 저자·발표 연도(2012)를 사용함. ACCV 2012 워크숍 논문이며 후속 proceedings 출판 연도 2013과 구분함."
+      },
+      "additional_sources": []
+    },
+    {
+      "record": {
+        "title": "Web Image-based Super-resolution",
+        "authors": "Jong-Ho Lee, Sang Chul Ahn, Hwasup Lim, Ig-Jae Kim, Jaewon Kim, Hyoung-Gon Kim",
+        "venue": "International Conference on Pattern Recognition (ICPR), pp. 1060–1063",
+        "year": "2012",
+        "status": "",
+        "paper_url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867729",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "1"
+      },
+      "doi": "",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867729",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": [
+        "https://www.proceedings.com/content/017/017344webtoc.pdf"
+      ]
+    },
+    {
+      "record": {
+        "title": "Putting Real-World Objects into Virtual World: Fast Automatic Creation of Animatable 3D Models with a Consumer Depth Camera",
+        "authors": "Hwasup Lim, Seong-Oh Lee, Jong-Ho Lee, Min-Hyuk Sung, Young-Woon Cha, Hyoung-Gon Kim, Sang Chul Ahn",
+        "venue": "International Symposium on Ubiquitous Virtual Reality (ISUVR), pp. 38–41",
+        "year": "2012",
+        "status": "",
+        "paper_url": "https://doi.org/10.1109/ISUVR.2012.12",
+        "code_url": "",
+        "project_url": "",
+        "image": "",
+        "position": "2"
+      },
+      "doi": "10.1109/ISUVR.2012.12",
+      "evidence": {
+        "kind": "official_kist_publication_record",
+        "url": "https://cai.kist.re.kr/Publication/?bmode=view&idx=5867740",
+        "note": "KIST 인공지능연구단의 공식 논문 게시판에 임화섭 저자가 포함된 논문으로 등록되어 있음."
+      },
+      "additional_sources": []
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Bi-layer inpainting for novel view synthesis",
+      "year": 2011,
+      "reason": "원문과 학회 프로그램에서 임화섭을 포함한 저자 소속이 Samsung Advanced Institute of Technology로 기재됨.",
+      "source": "https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2011/papers/1569403209.pdf"
+    },
+    {
+      "title": "Separable bilateral nonlocal means",
+      "year": 2011,
+      "reason": "학회 프로그램에서 저자 소속이 Samsung으로 기재됨.",
+      "source": "https://www.proceedings.com/content/013/013535webtoc.pdf"
+    },
+    {
+      "title": "Discrete and continuous optimizations for depth image super-resolution",
+      "year": 2012,
+      "reason": "공식 학회 초록집의 저자 소속은 Samsung Advanced Institute of Technology임.",
+      "source": "https://www.imaging.org/common/uploaded%20files/pdfs/Conferences/ElectronicImaging/Abstracts/ei12-abstracts-L.pdf"
+    },
+    {
+      "title": "Parametric model-based noise reduction for ToF depth sensors",
+      "year": 2012,
+      "reason": "공식 SPIE 학회 프로그램의 저자 소속은 Samsung Advanced Institute of Technology임.",
+      "source": "https://spie.org/Documents/ConferencesExhibitions/Ei12-final-L.pdf"
+    },
+    {
+      "title": "Computational stereoscopic zoom",
+      "year": 2012,
+      "reason": "SPIE가 제공한 Crossref 메타데이터에서 Hwasup Lim의 논문 소속은 Samsung Advanced Institute of Technology임. 현재 저자 프로필의 KIST 소속과 구별함.",
+      "source": "https://api.crossref.org/works/10.1117/1.OE.51.3.037008"
+    }
+  ],
+  "unresolved": [
+    {
+      "title": "Co-Recognition of Multiple Fingertips for Tabletop Human-Projector Interaction",
+      "year": 2019,
+      "doi": "10.1109/TMM.2018.2880608",
+      "reason": "저자 홈페이지의 논문 목록과 출판사 메타데이터에서 제목·저자는 확인했으나, 접근 가능한 원문 또는 출판사 메타데이터에서 Hwasup Lim의 논문 당시 소속을 직접 확인하지 못해 초기 등록을 보류함.",
+      "sources": [
+        "https://www.hwasup.net/publications",
+        "https://api.crossref.org/works/10.1109/TMM.2018.2880608"
+      ]
+    }
+  ],
+  "other_exclusions": "KIST 근무 시작 전(2011년 이전) 논문과 특허는 등록하지 않았다.",
+  "display_policy": {
+    "updated_on": "2026-10-07",
+    "rule": "강조 배지는 Oral·Spotlight만 사용하며 관리자에서 표시 없음·Oral·Spotlight를 선택한다. Accepted·Poster·Workshop·Demo 배지는 사용하지 않는다. 확정된 학회·저널 이름을 표시하며 발표처가 없는 프리프린트는 arXiv로 표시한다. 특별 발표 구분은 공식 학회 자료로 확인한 경우에만 지정한다.",
+    "note": "included.record는 최초 수집 시점의 기록이며 이후 표시 정책 변경이나 관리자 수정은 현재 데이터베이스에 저장한다.",
+    "arxiv_links": "arxiv.org의 논문 링크 버튼은 arXiv로 표시한다."
+  },
+  "presentation_checks": [
+    {
+      "title": "Bidirectional Temporal Diffusion Model for Temporally Consistent Human Animation",
+      "source": "https://iclr.cc/virtual/2024/poster/17420",
+      "confirmed_label": "Poster",
+      "badge_added": false
+    },
+    {
+      "title": "ContactField: Implicit Field Representation for Multi-Person Interaction Geometry",
+      "source": "https://neurips.cc/virtual/2024/poster/96417",
+      "confirmed_label": "Poster",
+      "badge_added": false
+    },
+    {
+      "title": "Splatter Layout: Geometry-embedded 3D Reconstruction via Surface Unfolding",
+      "source": "https://wacv.thecvf.com/Conferences/2026/AcceptedPapers",
+      "confirmed_label": "Poster Session 6",
+      "badge_added": false,
+      "note": "포스터 일정이 기재되어 있음을 확인했다. 포스터 일정만으로 별도 Oral 선정 여부까지 단정하지 않는다."
+    }
+  ]
+}

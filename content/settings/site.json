@@ -1,0 +1,14 @@
+{
+  "lab_name": "ERILab",
+  "full_name": "Embodied Robot Intelligence Lab",
+  "affiliation": "KIST · Center for AI Research",
+  "logo": "/assets/brand/erilab-logo-v2.png",
+  "meta_description": "Vision-based robot intelligence and loco-manipulation research at KIST.",
+  "footer_text": "Vision-based intelligence for robots that move and interact with the world.",
+  "nav_home": "Home",
+  "nav_research": "Research",
+  "nav_people": "People",
+  "nav_publications": "Publications",
+  "nav_news": "News",
+  "nav_contact": "Contact"
+}

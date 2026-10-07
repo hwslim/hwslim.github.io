@@ -1,8 +1,5 @@
-export default function ResearchAreas() {
-  return (
-    <main>
-      <h1>Research Areas</h1>
-      <p>Details about research areas will appear here.</p>
-    </main>
-  );
-}
+import { ContentPage } from '../../components/content-page';
+import { getSettings } from '../../lib/content.mjs';
+
+export const metadata = { title: getSettings()['research_title'] };
+export default function Page() { return <ContentPage page="research" />; }

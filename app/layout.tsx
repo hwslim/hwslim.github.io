@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { getSettings } from '../lib/content.mjs';
 import './globals.css';
 
+const site = getSettings();
 export const metadata: Metadata = {
-  title: 'Embodied Robotic Intelligence Lab',
-  description: 'Research on Embodied Robotic Intelligence',
+  title: { default: `${site.lab_name} | ${site.full_name}`, template: `%s | ${site.lab_name}` },
+  description: site.meta_description,
 };
 
 export default function RootLayout({
@@ -14,19 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <nav>
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/researchers">Researchers</Link></li>
-            <li><Link href="/research-areas">Research Areas</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="/publications">Publications</Link></li>
-            <li><Link href="/news">News</Link></li>
-          </ul>
-        </nav>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
