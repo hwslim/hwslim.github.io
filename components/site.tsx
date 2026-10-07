@@ -32,13 +32,11 @@ export function ResearchCards({ entries }: { entries: Entry[] }) {
 }
 
 export function PeopleCards({ entries }: { entries: Entry[] }) {
-  return <div className="people-grid">{entries.map(person => {
-    const name = person.group === 'Students' && person.school ? `${person.name} (${person.school})` : person.name;
-    return <article className="person-card" key={person.id}>
+  return <div className="people-grid">{entries.map(person => <article className="person-card" key={person.id}>
     {person.image ? <div className="portrait"><img src={linkUrl(person.image)} alt={person.name} width="500" height="500" loading="lazy" /></div>
       : <div className="portrait initials" aria-hidden="true">{person.name.slice(0, 1)}</div>}
-    <h3>{linkUrl(person.link) ? <a href={linkUrl(person.link)} target="_blank" rel="noopener noreferrer">{name} <span className="small-arrow">↗</span></a> : name}</h3>
-    <p className="person-role">{person.education && person.education !== person.role && `${person.education} · `}{person.role}</p>
+    <h3>{linkUrl(person.link) ? <a href={linkUrl(person.link)} target="_blank" rel="noopener noreferrer">{person.name} <span className="small-arrow">↗</span></a> : person.name}</h3>
+    {person.group === 'Students' ? person.school && <p className="person-role">{person.school}</p> : <p className="person-role">{person.education && person.education !== person.role && `${person.education} · `}{person.role}</p>}
     {person.special_service === '1' && <span className="service-badge">Technical Research Personnel</span>}
     {person.school && person.group !== 'Students' && <p className="person-school">{person.school}</p>}
     {person.bio && <p className="person-bio preserve-lines">{person.bio}</p>}
@@ -47,8 +45,7 @@ export function PeopleCards({ entries }: { entries: Entry[] }) {
       {linkUrl(person.cv_url) && <a href={linkUrl(person.cv_url)} target="_blank" rel="noopener noreferrer">CV ↗</a>}
       {linkUrl(person.cv_file) && <a href={linkUrl(person.cv_file)}>CV (PDF) ↓</a>}
     </div>}
-  </article>;
-  })}</div>;
+  </article>)}</div>;
 }
 
 export function AlumniList({ entries }: { entries: Entry[] }) {

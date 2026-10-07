@@ -65,12 +65,32 @@
     "group": "Students",
     "education": "Undergraduate Student",
     "filename": "minjun-park.jpg",
-    "source_type": "User-provided name, school and portrait",
+    "source_type": "User-provided name, school, email and portrait",
     "source_filename": "MinjunPark.png",
     "image_format": "JPEG",
     "dimensions": [
       638,
       851
+    ],
+    "supplied_date": "2026-10-07",
+    "name_ko": "박민준",
+    "email": "blessingpmj@kist.re.kr",
+    "email_source": "User-provided in conversation"
+  },
+  {
+    "name_en": "SoHee Kim",
+    "email": "soheekim@kist.re.kr",
+    "email_source": "User-provided in conversation",
+    "school": "KAIST",
+    "group": "Students",
+    "education": "Ph.D. Student",
+    "filename": "sohee-kim.jpg",
+    "source_type": "User-provided name, school, email and portrait",
+    "source_filename": "SoheeKim.jpg",
+    "image_format": "JPEG",
+    "dimensions": [
+      1104,
+      1472
     ],
     "supplied_date": "2026-10-07"
   }
