@@ -919,9 +919,17 @@
           "required": false
         },
         {
+          "name": "template",
+          "label": "소식 상황",
+          "widget": "erilab-news-template",
+          "required": false,
+          "default": "",
+          "hint": "상황을 선택하면 제목과 본문이 채워집니다. [ ] 안의 내용을 실제 정보로 바꾸세요. 직접 작성은 기존 문구를 유지합니다."
+        },
+        {
           "name": "title",
           "label": "소식 제목",
-          "widget": "string",
+          "widget": "erilab-news-title",
           "required": true
         },
         {
@@ -936,7 +944,7 @@
         {
           "name": "body",
           "label": "소식 내용",
-          "widget": "text",
+          "widget": "erilab-news-body",
           "required": true
         },
         {

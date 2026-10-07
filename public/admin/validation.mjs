@@ -1,3 +1,5 @@
+import { newsTemplates } from './news-templates.mjs';
+
 const alumniFields = ['name_ko', 'education', 'role', 'school', 'bio', 'image', 'link', 'email', 'cv_url', 'cv_file'];
 const studentDegrees = ['Ph.D. Student', 'M.S. Student', 'Undergraduate Student'];
 
@@ -18,6 +20,7 @@ export function validateEntry(kind, data, fields) {
     if (field.required && empty) throw new Error(`${field.label}: 값을 입력하세요.`);
     if (empty) continue;
     if (field.widget === 'erilab-options' && !field.options.some(option => option.value === value)) throw new Error(`${field.label}: 정해진 옵션을 선택하세요.`);
+    if (field.widget === 'erilab-news-template' && !newsTemplates.some(item => item.value === value)) throw new Error(`${field.label}: 정해진 상황을 선택하세요.`);
     if (field.widget === 'number' && (!Number.isInteger(Number(value)) || Number(value) < field.min || Number(value) > field.max)) throw new Error(`${field.label}: ${field.min}–${field.max} 사이의 정수를 입력하세요.`);
     if (field.widget === 'boolean' && ![true, false, '1', ''].includes(value)) throw new Error(`${field.label}: 켜기/끄기를 선택하세요.`);
     if (field.name.includes('email') && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) throw new Error(`${field.label}: 이메일 주소를 확인하세요.`);

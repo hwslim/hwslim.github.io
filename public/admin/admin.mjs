@@ -1,4 +1,5 @@
 import { prepareEntry, validateEntry } from './validation.mjs';
+import { registerNewsWidgets } from './news-templates.mjs';
 
 const status = document.getElementById('setup-status');
 try {
@@ -33,6 +34,7 @@ try {
       },
     });
     window.CMS.registerWidget('erilab-options', OptionsControl);
+    registerNewsWidgets();
     window.CMS.registerEventListener({
       name: 'preSave',
       handler: ({ entry }) => {
