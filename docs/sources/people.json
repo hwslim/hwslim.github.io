@@ -58,5 +58,20 @@
     ],
     "source_page": "https://cai.kist.re.kr/People",
     "retrieved_date": "2026-10-06"
+  },
+  {
+    "name_en": "MinJun Park",
+    "school": "SeoulTech",
+    "group": "Students",
+    "education": "Undergraduate Student",
+    "filename": "minjun-park.jpg",
+    "source_type": "User-provided name, school and portrait",
+    "source_filename": "MinjunPark.png",
+    "image_format": "JPEG",
+    "dimensions": [
+      638,
+      851
+    ],
+    "supplied_date": "2026-10-07"
   }
 ]
