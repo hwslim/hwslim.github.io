@@ -5,6 +5,11 @@ export function ContentPage({ page }: { page: string }) {
   const site = getSettings();
   const entries = page === 'contact' ? [] : getRecords(page);
   const people = entries.map(publicPerson);
+  const studentRecruiting: Record<string, string> = {
+    'Ph.D. Student': site.phd_students_empty,
+    'M.S. Student': site.ms_students_empty,
+    'Undergraduate Student': site.undergraduate_students_empty,
+  };
   const years = [...new Set(entries.map(item => item.year))].sort((a, b) => Number(b) - Number(a));
   return <SiteShell page={page}>
     <section className="page-intro container"><p className="eyebrow"><span className="tiny-dot" />{site.affiliation}</p><h1>{site[`${page}_title`]}</h1><p className="preserve-lines">{site[`${page}_intro`]}</p></section>
@@ -17,8 +22,8 @@ export function ContentPage({ page }: { page: string }) {
         return <div className="people-group" key={group}><h2 className="group-title">{group}</h2>
           {group === 'Students' ? Object.entries(studentPrograms).map(([program, label]) => {
             const students = members.filter(person => person.education === program);
-            return <div className="student-group" key={program}><h3 className="student-title">{label}</h3>{students.length ? <PeopleCards entries={students} /> : <p className="group-empty">{site.people_empty}</p>}</div>;
-          }) : members.length ? (group === 'Alumni' ? <AlumniList entries={members} /> : <PeopleCards entries={members} />) : <p className="group-empty">{site[group === 'Alumni' ? 'alumni_empty' : 'people_empty']}</p>}
+            return <div className="student-group" key={program}><h3 className="student-title">{label}</h3>{students.length ? <PeopleCards entries={students} /> : <p className="group-empty">{studentRecruiting[program]}</p>}</div>;
+          }) : members.length ? (group === 'Alumni' ? <AlumniList entries={members} /> : <PeopleCards entries={members} />) : <p className="group-empty">{site[group === 'Alumni' ? 'alumni_empty' : group === 'Interns' ? 'interns_empty' : 'people_empty']}</p>}
         </div>;
       })}
       {page === 'publications' && (entries.length ? years.map(year => <div className="publication-year" key={year}><h2 className="year-label">{year}</h2><PublicationList entries={entries.filter(item => item.year === year)} /></div>) : <p className="empty-state">{site.publications_empty}</p>)}

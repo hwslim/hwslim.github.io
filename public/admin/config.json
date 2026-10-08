@@ -363,6 +363,34 @@
               "default": "Our team will be introduced here."
             },
             {
+              "name": "interns_empty",
+              "label": "Intern이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting interns interested in vision-based robot intelligence and loco-manipulation."
+            },
+            {
+              "name": "phd_students_empty",
+              "label": "박사과정 학생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting Ph.D. students interested in vision-based robot intelligence and loco-manipulation."
+            },
+            {
+              "name": "ms_students_empty",
+              "label": "석사과정 학생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting M.S. students interested in vision-based robot intelligence and loco-manipulation."
+            },
+            {
+              "name": "undergraduate_students_empty",
+              "label": "학부생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting undergraduate students interested in vision-based robot intelligence and loco-manipulation."
+            },
+            {
               "name": "alumni_empty",
               "label": "Alumni가 없을 때 안내",
               "widget": "text",
