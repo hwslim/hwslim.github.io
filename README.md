@@ -8,7 +8,8 @@ Embodied Robotic Intelligence Lab, KIST Center for AI Research. Existing lab lay
 - People: PI, Researchers, Interns, three student programs, Alumni. Student cards show the school below the name; program names appear in group headings. Researchers automatically sort by rank. Alumni show only name and destination.
 - Optional CV website/PDF, photos, email, schools, fixed-choice role/degree controls, and independent technical-service switch.
 - Publications: year groups, links, only Oral/Spotlight highlight badges.
-- Gallery: group and event photos, newest first, with dates, titles and optional captions. Photos open full-size and are managed in Admin.
+- Gallery: group and event photos, newest first, with dates, titles and optional captions. Photos are managed in Admin.
+- Public images disable the usual context menu and dragging, with touch callouts disabled where supported. Gallery photos have no direct full-size link. These restrictions discourage casual copying; they cannot prevent screenshots or direct image access.
 - Responsive CSS from the local site is retained.
 
 ## Local preview

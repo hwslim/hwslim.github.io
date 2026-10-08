@@ -1,5 +1,6 @@
 import { SiteShell, ResearchCards, PublicationList, NewsList } from '../components/site';
 import { VisionVisual } from '../components/vision-visual';
+import { SiteImage } from '../components/site-image';
 import { getSettings, getRecords, linkUrl, sitePath } from '../lib/content.mjs';
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="hero-actions"><a className="button primary" href={sitePath('/research/')}>{site.research_button} <span>↗</span></a><a className="text-link" href={sitePath('/people/')}>{site.people_button} <span>→</span></a></div>
         <p className="hero-affiliation">{site.affiliation}</p>
       </div>
-      <figure className="hero-figure"><div className="visual-surface">{site.hero_image ? <img className="hero-photo" src={linkUrl(site.hero_image)} alt={site.hero_caption} /> : <VisionVisual caption={site.hero_caption} />}</div>
+      <figure className="hero-figure"><div className="visual-surface">{site.hero_image ? <SiteImage className="hero-photo" src={linkUrl(site.hero_image)} alt={site.hero_caption} /> : <VisionVisual caption={site.hero_caption} />}</div>
         {site.hero_caption && <figcaption><span className="caption-line" />{site.hero_caption}</figcaption>}
       </figure>
     </section>

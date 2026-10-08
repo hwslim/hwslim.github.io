@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { getSettings, linkUrl, sitePath } from '../lib/content.mjs';
+import { SiteImage } from './site-image';
 
 export type Entry = Record<string, string>;
 const site = getSettings();
@@ -10,10 +11,10 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
     <header className="site-header"><div className="container header-inner">
       <div className="brand-group">
         {linkUrl(site.kist_logo) && <a className="brand kist-brand" href={sitePath('/')} aria-label={`${site.lab_name} home — KIST`}>
-          <img src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" />
+          <SiteImage src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" />
         </a>}
         <a className="brand" href={sitePath('/')} aria-label={`${site.lab_name} home`}>
-          {site.logo ? <img src={linkUrl(site.logo)} alt={site.lab_name} width="160" height="55" /> : <strong>{site.lab_name}</strong>}
+          {site.logo ? <SiteImage src={linkUrl(site.logo)} alt={site.lab_name} width="160" height="55" /> : <strong>{site.lab_name}</strong>}
         </a>
       </div>
       <nav className="site-nav" aria-label="Main navigation">{['home', 'research', 'people', 'publications', 'news', 'gallery', 'contact'].map(name =>
@@ -30,7 +31,7 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
 export function ResearchCards({ entries }: { entries: Entry[] }) {
   return <div className="research-grid">{entries.map((item, index) => <article className="research-card" key={item.id}>
     <span className="research-number">{String(index + 1).padStart(2, '0')}</span>
-    {item.image && <img className="research-image" src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
+    {item.image && <SiteImage className="research-image" src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
     <h3>{linkUrl(item.link) ? <a href={linkUrl(item.link)} target="_blank" rel="noopener noreferrer">{item.title} <span className="small-arrow">↗</span></a> : item.title}</h3>
     <p className="preserve-lines">{item.summary}</p>
   </article>)}</div>;
@@ -38,7 +39,7 @@ export function ResearchCards({ entries }: { entries: Entry[] }) {
 
 export function PeopleCards({ entries }: { entries: Entry[] }) {
   return <div className="people-grid">{entries.map(person => <article className="person-card" key={person.id}>
-    {person.image ? <div className="portrait"><img src={linkUrl(person.image)} alt={person.name} width="500" height="500" loading="lazy" /></div>
+    {person.image ? <div className="portrait"><SiteImage src={linkUrl(person.image)} alt={person.name} width="500" height="500" loading="lazy" /></div>
       : <div className="portrait initials" aria-hidden="true">{person.name.slice(0, 1)}</div>}
     <h3>{linkUrl(person.link) ? <a href={linkUrl(person.link)} target="_blank" rel="noopener noreferrer">{person.name} <span className="small-arrow">↗</span></a> : person.name}</h3>
     {person.group === 'Students' ? person.school && <p className="person-role">{person.school}</p> : person.group === 'Interns' ? person.education && <p className="person-role">{person.education}</p> : <p className="person-role">{person.education && person.education !== person.role && `${person.education} · `}{person.role}</p>}
@@ -59,7 +60,7 @@ export function AlumniList({ entries }: { entries: Entry[] }) {
 
 export function PublicationList({ entries }: { entries: Entry[] }) {
   return <div className="publication-list">{entries.map(item => <article className="publication" key={item.id}>
-    {item.image && <img src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
+    {item.image && <SiteImage src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
     <div className="publication-content"><div className="publication-meta"><span>{item.venue} · {item.year}</span>
       {['Oral', 'Spotlight'].includes(item.status) && <span className="status-tag">{item.status}</span>}
     </div><h3>{item.title}</h3><p className="authors preserve-lines">{item.authors}</p>
@@ -71,15 +72,15 @@ export function PublicationList({ entries }: { entries: Entry[] }) {
 export function NewsList({ entries }: { entries: Entry[] }) {
   return <div className="news-list">{entries.map(item => <article className="news-item" key={item.id}>
     <time dateTime={item.date}>{item.date}</time><div><h3>{linkUrl(item.link) ? <a href={linkUrl(item.link)} target="_blank" rel="noopener noreferrer">{item.title} ↗</a> : item.title}</h3>
-    <p className="preserve-lines">{item.body}</p>{item.image && <img src={linkUrl(item.image)} alt={item.title} loading="lazy" />}</div>
+    <p className="preserve-lines">{item.body}</p>{item.image && <SiteImage src={linkUrl(item.image)} alt={item.title} loading="lazy" />}</div>
   </article>)}</div>;
 }
 
 export function GalleryCards({ entries }: { entries: Entry[] }) {
   return <div className="gallery-grid">{entries.map(item => <figure className="gallery-card" key={item.id}>
-    <a className="gallery-photo" href={linkUrl(item.image)} target="_blank" rel="noopener noreferrer" aria-label={`View ${item.title} full-size`}>
-      <img src={linkUrl(item.image)} alt={item.title} loading="lazy" />
-    </a>
+    <div className="gallery-photo">
+      <SiteImage src={linkUrl(item.image)} alt={item.title} loading="lazy" />
+    </div>
     <figcaption><time dateTime={item.date}>{item.date}</time><h2>{item.title}</h2>
       {item.caption && <p className="preserve-lines">{item.caption}</p>}
     </figcaption>
