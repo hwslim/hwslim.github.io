@@ -37,7 +37,7 @@
               "label": "정식 영문 이름",
               "widget": "string",
               "required": true,
-              "default": "Embodied Robot Intelligence Lab"
+              "default": "Embodied Robotic Intelligence Lab"
             },
             {
               "name": "affiliation",
@@ -159,14 +159,14 @@
               "label": "첫 화면 상단 문구",
               "widget": "string",
               "required": false,
-              "default": "EMBODIED ROBOT INTELLIGENCE LAB"
+              "default": "Welcome to the Embodied Robotic Intelligence laboratory"
             },
             {
               "name": "hero_title",
               "label": "첫 화면 제목",
               "widget": "text",
               "required": false,
-              "default": "Vision for embodied\nrobot intelligence."
+              "default": "Embodied Robotic\nIntelligence Lab"
             },
             {
               "name": "hero_description",
@@ -388,7 +388,7 @@
               "label": "연락처 페이지 소개",
               "widget": "text",
               "required": false,
-              "default": "Embodied Robot Intelligence Lab at the Korea Institute of Science and Technology."
+              "default": "Embodied Robotic Intelligence Lab at the Korea Institute of Science and Technology."
             },
             {
               "name": "contact_location",

@@ -1,6 +1,6 @@
 # ERILab — GitHub Pages
 
-Embodied Robot Intelligence Lab, KIST Center for AI Research. Existing lab layout and public content migrated to the `hwslim/hwslim.github.io` Next.js static export project.
+Embodied Robotic Intelligence Lab, KIST Center for AI Research. Existing lab layout and public content migrated to the `hwslim/hwslim.github.io` Next.js static export project.
 
 - Public pages: Home, Research, People, Publications, News, Gallery, Contact.
 - Legacy routes `/researchers/`, `/research-areas/`, `/projects/` show the corresponding People/Research pages.
