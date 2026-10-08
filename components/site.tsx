@@ -41,7 +41,7 @@ export function PeopleCards({ entries }: { entries: Entry[] }) {
     {person.image ? <div className="portrait"><img src={linkUrl(person.image)} alt={person.name} width="500" height="500" loading="lazy" /></div>
       : <div className="portrait initials" aria-hidden="true">{person.name.slice(0, 1)}</div>}
     <h3>{linkUrl(person.link) ? <a href={linkUrl(person.link)} target="_blank" rel="noopener noreferrer">{person.name} <span className="small-arrow">↗</span></a> : person.name}</h3>
-    {person.group === 'Students' ? person.school && <p className="person-role">{person.school}</p> : <p className="person-role">{person.education && person.education !== person.role && `${person.education} · `}{person.role}</p>}
+    {person.group === 'Students' ? person.school && <p className="person-role">{person.school}</p> : person.group === 'Interns' ? person.education && <p className="person-role">{person.education}</p> : <p className="person-role">{person.education && person.education !== person.role && `${person.education} · `}{person.role}</p>}
     {person.special_service === '1' && <span className="service-badge">Technical Research Personnel</span>}
     {person.school && person.group !== 'Students' && <p className="person-school">{person.school}</p>}
     {person.bio && <p className="person-bio preserve-lines">{person.bio}</p>}
