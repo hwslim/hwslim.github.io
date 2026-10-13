@@ -180,7 +180,7 @@
               "label": "첫 화면 대표 이미지",
               "widget": "image",
               "required": false,
-              "default": "",
+              "default": "/assets/home/erilab-virtual-lab.png",
               "media_library": {
                 "config": {
                   "max_file_size": 10485760,
@@ -199,7 +199,7 @@
               "label": "대표 이미지·그래픽 설명",
               "widget": "string",
               "required": false,
-              "default": "Connecting vision, touch, and robot action."
+              "default": "A 3D view of the ERILab research environment."
             },
             {
               "name": "research_button",
