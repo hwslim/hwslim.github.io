@@ -1,0 +1,10 @@
+{
+  "source_page": "https://kist.re.kr/ko/intro/kist-ci.do",
+  "download_url": "https://kist.re.kr/cms/etcResourceDown.do?site=%24cms%24NYeyA&key=%24cms%24NISQygKg+gwiUAUByBxAdALwJYAcg",
+  "download_archive": "KIST_CI_PNG.zip",
+  "archive_member": "KIST_CI.png",
+  "local_asset": "public/assets/brand/kist-logo.png",
+  "sha256": "806db9c32dfb06aada717f48120d7546ff703911b2763c3f3a53955c93b7a83d",
+  "retrieved_on": "2026-10-07",
+  "note": "Official PNG copied without modification. Colors and proportions are preserved when displayed."
+}

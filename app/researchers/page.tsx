@@ -1,8 +1,5 @@
-export default function Researchers() {
-  return (
-    <main>
-      <h1>Researchers</h1>
-      <p>Information about lab members will appear here.</p>
-    </main>
-  );
-}
+import { ContentPage } from '../../components/content-page';
+import { getSettings } from '../../lib/content.mjs';
+
+export const metadata = { title: getSettings()['people_title'] };
+export default function Page() { return <ContentPage page="people" />; }

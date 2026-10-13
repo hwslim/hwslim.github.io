@@ -1,0 +1,16 @@
+{
+  "lab_name": "ERILab",
+  "full_name": "Embodied Robotic Intelligence Lab",
+  "affiliation": "KIST · Center for AI Research",
+  "logo": "/assets/brand/erilab-logo-v2.png",
+  "kist_logo": "/assets/brand/kist-logo.png",
+  "meta_description": "ERILab at KIST researches humanoid loco-manipulation, dexterous hands, tactile sensing, and on-device robotic intelligence.",
+  "footer_text": "Embodied intelligence for robots that move, touch, and interact with the world.",
+  "nav_home": "Home",
+  "nav_research": "Research",
+  "nav_people": "People",
+  "nav_publications": "Publications",
+  "nav_news": "News",
+  "nav_gallery": "Gallery",
+  "nav_contact": "Contact"
+}

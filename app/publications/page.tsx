@@ -1,8 +1,5 @@
-export default function Publications() {
-  return (
-    <main>
-      <h1>Publications & Patents</h1>
-      <p>Publication and patent records will appear here.</p>
-    </main>
-  );
-}
+import { ContentPage } from '../../components/content-page';
+import { getSettings } from '../../lib/content.mjs';
+
+export const metadata = { title: getSettings()['publications_title'] };
+export default function Page() { return <ContentPage page="publications" />; }

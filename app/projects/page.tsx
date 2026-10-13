@@ -1,8 +1,5 @@
-export default function Projects() {
-  return (
-    <main>
-      <h1>Projects</h1>
-      <p>A list of ongoing projects will appear here.</p>
-    </main>
-  );
-}
+import { ContentPage } from '../../components/content-page';
+import { getSettings } from '../../lib/content.mjs';
+
+export const metadata = { title: getSettings()['research_title'] };
+export default function Page() { return <ContentPage page="research" />; }

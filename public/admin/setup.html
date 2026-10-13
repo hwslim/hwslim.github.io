@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>ERILab 로그인 설정</title><link rel="stylesheet" href="./admin.css"></head>
+<body><main class="setup-card">
+  <a href="./">← 관리자</a><h1>최초 로그인 연결</h1>
+  <p>사이트는 GitHub Pages에서 운영하고, Cloudflare Workers는 GitHub 로그인 인증만 처리합니다. Python 서버는 필요하지 않습니다.</p>
+  <ol>
+    <li>Cloudflare 계정을 만들고 <strong>Workers &amp; Pages</strong>에서 <strong>erilab-auth</strong> Worker를 생성합니다.</li>
+    <li>저장소의 <code>auth-worker/worker.mjs</code>를 Worker 코드에 넣어 배포합니다.</li>
+    <li>GitHub Settings → Developer settings → OAuth Apps에서 앱을 등록합니다. Homepage URL은 <code>https://erilab.xyz</code>, Callback URL은 <code>Worker주소/callback</code>입니다.</li>
+    <li>Worker의 변수에 <code>GITHUB_CLIENT_ID</code>, <code>SITE_ORIGIN=https://erilab.xyz</code>, <code>REPO=hwslim/hwslim.github.io</code>를, Secret에 <code>GITHUB_CLIENT_SECRET</code>을 등록합니다.</li>
+    <li><code>public/admin/config.json</code>의 <code>backend.base_url</code>에 Worker 주소(<code>https://…workers.dev</code>, 끝의 / 제외)를 저장합니다. 자동 배포가 완료되면 관리자 페이지에서 GitHub로 로그인합니다.</li>
+  </ol>
+  <p><a href="https://github.com/hwslim/hwslim.github.io/blob/main/docs/ADMIN_SETUP.md" target="_blank" rel="noopener noreferrer">자세한 설정과 운영 안내 →</a></p>
+  <p>관리자는 저장소 쓰기 권한이 있는 GitHub 계정입니다. 회원가입 화면과 별도 admin/admin 계정은 사용하지 않습니다. 비밀번호 변경은 GitHub 계정 설정에서 합니다.</p>
+</main></body></html>

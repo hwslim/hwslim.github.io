@@ -1,8 +1,5 @@
-export default function News() {
-  return (
-    <main>
-      <h1>News</h1>
-      <p>Latest news and updates will appear here.</p>
-    </main>
-  );
-}
+import { ContentPage } from '../../components/content-page';
+import { getSettings } from '../../lib/content.mjs';
+
+export const metadata = { title: getSettings()['news_title'] };
+export default function Page() { return <ContentPage page="news" />; }

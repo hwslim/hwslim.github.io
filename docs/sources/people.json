@@ -1,0 +1,97 @@
+[
+  {
+    "name_ko": "임화섭",
+    "name_en": "Hwasup Lim",
+    "email": "hslim@kist.re.kr",
+    "email_source": "https://www.hwasup.net/",
+    "source_title_en": "Head, Principal Researcher",
+    "filename": "hwasup-lim.png",
+    "image_url": "https://cdn.imweb.me/thumbnail/20210207/acf07c96bb4c1.png",
+    "dimensions": [
+      500,
+      500
+    ],
+    "source_page": "https://cai.kist.re.kr/People",
+    "retrieved_date": "2026-10-06"
+  },
+  {
+    "name_ko": "안상철",
+    "name_en": "Sang Chul Ahn",
+    "email": "asc@kist.re.kr",
+    "email_source": "https://www.kist.re.kr/kist_school_ko/aboutusNoticeList.do?articleNo=15329&attachNo=14606&mode=download",
+    "source_title_en": "Principal Researcher",
+    "filename": "sang-chul-ahn.png",
+    "image_url": "https://cdn.imweb.me/thumbnail/20250309/68963bd1ac22b.png",
+    "dimensions": [
+      500,
+      500
+    ],
+    "source_page": "https://cai.kist.re.kr/People",
+    "retrieved_date": "2026-10-06"
+  },
+  {
+    "name_ko": "김수민",
+    "name_en": "Soomin Kim",
+    "email": "soomin.kim@kist.re.kr",
+    "email_source": "https://www.kist.re.kr/ko/notice/employment-announcement.do?articleNo=15052&attachNo=14484&mode=download",
+    "source_title_en": "Senior Researcher",
+    "filename": "soomin-kim.png",
+    "image_url": "https://cdn.imweb.me/thumbnail/20250309/989a012109bf1.png",
+    "dimensions": [
+      500,
+      500
+    ],
+    "source_page": "https://cai.kist.re.kr/People",
+    "retrieved_date": "2026-10-06"
+  },
+  {
+    "name_ko": "유택근",
+    "name_en": "Tackgeun You",
+    "email": "tackgeun.you@kist.re.kr",
+    "email_source": "https://tackgeun.github.io/",
+    "source_title_en": "Senior Researcher",
+    "filename": "tackgeun-you.png",
+    "image_url": "https://cdn.imweb.me/thumbnail/20250309/1b7f5cda16b27.png",
+    "dimensions": [
+      500,
+      500
+    ],
+    "source_page": "https://cai.kist.re.kr/People",
+    "retrieved_date": "2026-10-06"
+  },
+  {
+    "name_en": "MinJun Park",
+    "school": "SeoulTech",
+    "group": "Students",
+    "education": "Undergraduate Student",
+    "filename": "minjun-park.jpg",
+    "source_type": "User-provided name, school, email and portrait",
+    "source_filename": "MinjunPark.png",
+    "image_format": "JPEG",
+    "dimensions": [
+      638,
+      851
+    ],
+    "supplied_date": "2026-10-07",
+    "name_ko": "박민준",
+    "email": "blessingpmj@kist.re.kr",
+    "email_source": "User-provided in conversation"
+  },
+  {
+    "name_en": "SoHee Kim",
+    "email": "soheekim@kist.re.kr",
+    "email_source": "User-provided in conversation",
+    "school": "KAIST",
+    "group": "Students",
+    "education": "Ph.D. Student",
+    "filename": "sohee-kim.jpg",
+    "source_type": "User-provided name, school, email and portrait",
+    "source_filename": "SoheeKim.jpg",
+    "image_format": "JPEG",
+    "dimensions": [
+      1104,
+      1472
+    ],
+    "supplied_date": "2026-10-07"
+  }
+]

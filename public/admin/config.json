@@ -1,0 +1,1037 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "hwslim/hwslim.github.io",
+    "branch": "main",
+    "base_url": "",
+    "auth_endpoint": "auth"
+  },
+  "site_url": "https://erilab.xyz",
+  "display_url": "https://erilab.xyz",
+  "logo_url": "/assets/brand/erilab-logo-v2.png",
+  "locale": "ko",
+  "media_folder": "public/uploads",
+  "public_folder": "/uploads",
+  "editor": {
+    "preview": false
+  },
+  "collections": [
+    {
+      "name": "settings",
+      "label": "홈페이지 설정",
+      "files": [
+        {
+          "name": "site",
+          "label": "사이트 정보",
+          "file": "content/settings/site.json",
+          "fields": [
+            {
+              "name": "lab_name",
+              "label": "연구실 표기",
+              "widget": "string",
+              "required": true,
+              "default": "ERILab"
+            },
+            {
+              "name": "full_name",
+              "label": "정식 영문 이름",
+              "widget": "string",
+              "required": true,
+              "default": "Embodied Robotic Intelligence Lab"
+            },
+            {
+              "name": "affiliation",
+              "label": "소속",
+              "widget": "string",
+              "required": false,
+              "default": "KIST · Center for AI Research"
+            },
+            {
+              "name": "logo",
+              "label": "로고",
+              "widget": "image",
+              "required": false,
+              "default": "/assets/brand/erilab-logo-v2.png",
+              "media_library": {
+                "config": {
+                  "max_file_size": 10485760,
+                  "multiple": false
+                }
+              },
+              "media_extensions": [
+                "jpg",
+                "jpeg",
+                "png",
+                "webp"
+              ]
+            },
+            {
+              "name": "kist_logo",
+              "label": "KIST 로고",
+              "widget": "image",
+              "required": false,
+              "default": "/assets/brand/kist-logo.png",
+              "media_library": {
+                "config": {
+                  "max_file_size": 10485760,
+                  "multiple": false
+                }
+              },
+              "media_extensions": [
+                "jpg",
+                "jpeg",
+                "png",
+                "webp"
+              ]
+            },
+            {
+              "name": "meta_description",
+              "label": "검색 결과 소개",
+              "widget": "text",
+              "required": false,
+              "default": "ERILab at KIST researches humanoid loco-manipulation, dexterous hands, tactile sensing, and on-device robotic intelligence."
+            },
+            {
+              "name": "footer_text",
+              "label": "하단 소개 문구",
+              "widget": "text",
+              "required": false,
+              "default": "Embodied intelligence for robots that move, touch, and interact with the world."
+            },
+            {
+              "name": "nav_home",
+              "label": "Home 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Home"
+            },
+            {
+              "name": "nav_research",
+              "label": "Research 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Research"
+            },
+            {
+              "name": "nav_people",
+              "label": "People 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "People"
+            },
+            {
+              "name": "nav_publications",
+              "label": "Publications 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Publications"
+            },
+            {
+              "name": "nav_news",
+              "label": "News 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "News"
+            },
+            {
+              "name": "nav_gallery",
+              "label": "Gallery 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Gallery"
+            },
+            {
+              "name": "nav_contact",
+              "label": "Contact 메뉴 이름",
+              "widget": "string",
+              "required": false,
+              "default": "Contact"
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "label": "첫 페이지",
+          "file": "content/settings/home.json",
+          "fields": [
+            {
+              "name": "hero_eyebrow",
+              "label": "첫 화면 상단 문구",
+              "widget": "string",
+              "required": false,
+              "default": "Welcome to the Embodied Robotic Intelligence laboratory"
+            },
+            {
+              "name": "hero_title",
+              "label": "첫 화면 제목",
+              "widget": "text",
+              "required": false,
+              "default": "Embodied Robotic\nIntelligence Lab"
+            },
+            {
+              "name": "hero_description",
+              "label": "첫 화면 소개",
+              "widget": "text",
+              "required": false,
+              "default": "ERILab at KIST develops embodied intelligence for humanoid robots. Our research connects vision, touch, learning, and control, focusing on loco-manipulation, dexterous hands, and efficient on-device intelligence."
+            },
+            {
+              "name": "hero_image",
+              "label": "첫 화면 대표 이미지",
+              "widget": "image",
+              "required": false,
+              "default": "",
+              "media_library": {
+                "config": {
+                  "max_file_size": 10485760,
+                  "multiple": false
+                }
+              },
+              "media_extensions": [
+                "jpg",
+                "jpeg",
+                "png",
+                "webp"
+              ]
+            },
+            {
+              "name": "hero_caption",
+              "label": "대표 이미지·그래픽 설명",
+              "widget": "string",
+              "required": false,
+              "default": "Connecting vision, touch, and robot action."
+            },
+            {
+              "name": "research_button",
+              "label": "연구 소개 버튼",
+              "widget": "string",
+              "required": false,
+              "default": "Explore our research"
+            },
+            {
+              "name": "people_button",
+              "label": "구성원 소개 버튼",
+              "widget": "string",
+              "required": false,
+              "default": "Meet the team"
+            },
+            {
+              "name": "home_research_title",
+              "label": "연구 영역 제목",
+              "widget": "string",
+              "required": false,
+              "default": "From perception to action"
+            },
+            {
+              "name": "home_research_intro",
+              "label": "연구 영역 소개",
+              "widget": "text",
+              "required": false,
+              "default": "We connect vision, touch, learning, and control to help robots move and interact with the physical world."
+            },
+            {
+              "name": "home_news_title",
+              "label": "최신 소식 영역 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Latest News"
+            },
+            {
+              "name": "home_publications_title",
+              "label": "최신 논문 영역 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Selected publications"
+            },
+            {
+              "name": "view_all_label",
+              "label": "전체 보기 링크",
+              "widget": "string",
+              "required": false,
+              "default": "View all"
+            }
+          ]
+        },
+        {
+          "name": "pages",
+          "label": "페이지 제목·소개",
+          "file": "content/settings/pages.json",
+          "fields": [
+            {
+              "name": "research_title",
+              "label": "연구 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Research"
+            },
+            {
+              "name": "research_intro",
+              "label": "연구 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "We connect vision, touch, learning, and control to develop embodied intelligence for humanoid robots, from whole-body movement and dexterous manipulation to efficient on-device models."
+            },
+            {
+              "name": "people_title",
+              "label": "구성원 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Our people"
+            },
+            {
+              "name": "people_intro",
+              "label": "구성원 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "The researchers behind ERILab at KIST."
+            },
+            {
+              "name": "publications_title",
+              "label": "논문 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Publications"
+            },
+            {
+              "name": "publications_intro",
+              "label": "논문 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "Research publications from ERILab."
+            },
+            {
+              "name": "publications_empty",
+              "label": "논문이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Publications will be listed here as they become available."
+            },
+            {
+              "name": "news_title",
+              "label": "소식 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "News & updates"
+            },
+            {
+              "name": "news_intro",
+              "label": "소식 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "Research and updates from ERILab."
+            },
+            {
+              "name": "news_empty",
+              "label": "소식이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Updates from our lab will appear here."
+            },
+            {
+              "name": "gallery_title",
+              "label": "갤러리 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Gallery"
+            },
+            {
+              "name": "gallery_intro",
+              "label": "갤러리 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "Group photos, lab events, and moments together at ERILab."
+            },
+            {
+              "name": "gallery_empty",
+              "label": "사진이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Photos from our lab will appear here."
+            },
+            {
+              "name": "research_empty",
+              "label": "연구 항목이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Research areas will be listed here."
+            },
+            {
+              "name": "people_empty",
+              "label": "구성원이 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Our team will be introduced here."
+            },
+            {
+              "name": "interns_empty",
+              "label": "Intern이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting interns interested in embodied robotic intelligence."
+            },
+            {
+              "name": "phd_students_empty",
+              "label": "박사과정 학생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting Ph.D. students interested in embodied robotic intelligence."
+            },
+            {
+              "name": "ms_students_empty",
+              "label": "석사과정 학생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting M.S. students interested in embodied robotic intelligence."
+            },
+            {
+              "name": "undergraduate_students_empty",
+              "label": "학부생이 없을 때 모집 문구",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting undergraduate students interested in embodied robotic intelligence."
+            },
+            {
+              "name": "alumni_empty",
+              "label": "Alumni가 없을 때 안내",
+              "widget": "text",
+              "required": false,
+              "default": "Alumni will be listed here."
+            }
+          ]
+        },
+        {
+          "name": "contact",
+          "label": "연락처·지원 안내",
+          "file": "content/settings/contact.json",
+          "fields": [
+            {
+              "name": "contact_title",
+              "label": "연락처 페이지 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Connect with ERILab"
+            },
+            {
+              "name": "contact_intro",
+              "label": "연락처 페이지 소개",
+              "widget": "text",
+              "required": false,
+              "default": "Embodied Robotic Intelligence Lab at the Korea Institute of Science and Technology."
+            },
+            {
+              "name": "contact_location",
+              "label": "기관·위치 표기",
+              "widget": "string",
+              "required": false,
+              "default": "Korea Institute of Science and Technology (KIST)"
+            },
+            {
+              "name": "contact_address",
+              "label": "상세 주소",
+              "widget": "text",
+              "required": false,
+              "default": ""
+            },
+            {
+              "name": "contact_email",
+              "label": "공개 이메일",
+              "widget": "string",
+              "required": false,
+              "default": "hslim@kist.re.kr"
+            },
+            {
+              "name": "contact_url",
+              "label": "기관·관련 웹사이트",
+              "widget": "string",
+              "required": false,
+              "default": "https://cai.kist.re.kr/"
+            },
+            {
+              "name": "contact_link_label",
+              "label": "웹사이트 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "KIST Center for AI Research"
+            },
+            {
+              "name": "join_title",
+              "label": "지원 안내 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Join us"
+            },
+            {
+              "name": "join_description",
+              "label": "지원 안내 내용 (입력하면 표시)",
+              "widget": "text",
+              "required": false,
+              "default": "We are recruiting Ph.D., M.S., and undergraduate students, as well as interns, interested in embodied robotic intelligence.\nTo inquire about joining ERILab, please contact Dr. Hwasup Lim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "label": "구성원",
+      "folder": "content/people",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "name",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{name}}",
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "group",
+          "label": "구성원 구분",
+          "widget": "erilab-options",
+          "required": true,
+          "default": "Researchers",
+          "options": [
+            {
+              "value": "Principal Investigator",
+              "label": "PI"
+            },
+            {
+              "value": "Researchers",
+              "label": "연구원"
+            },
+            {
+              "value": "Interns",
+              "label": "Intern"
+            },
+            {
+              "value": "Students",
+              "label": "학생"
+            },
+            {
+              "value": "Alumni",
+              "label": "Alumni로 이동"
+            }
+          ],
+          "hint": "현 구성원을 Alumni로 이동하려면 Alumni를 선택하고 이동한 기관을 입력하세요. 사진·이메일·CV 등은 저장할 때 제거됩니다."
+        },
+        {
+          "name": "name",
+          "label": "영문 이름",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "name_ko",
+          "label": "한글 이름",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "education",
+          "label": "학위·과정",
+          "widget": "erilab-options",
+          "required": false,
+          "default": "",
+          "options": [
+            {
+              "value": "",
+              "label": "미지정"
+            },
+            {
+              "value": "Ph.D.",
+              "label": "박사 (Ph.D.)"
+            },
+            {
+              "value": "M.S.",
+              "label": "석사 (M.S.)"
+            },
+            {
+              "value": "B.S.",
+              "label": "학사 (B.S.)"
+            },
+            {
+              "value": "Ph.D. Student",
+              "label": "박사과정 학생"
+            },
+            {
+              "value": "M.S. Student",
+              "label": "석사과정 학생"
+            },
+            {
+              "value": "Undergraduate Student",
+              "label": "학부생"
+            }
+          ]
+        },
+        {
+          "name": "role",
+          "label": "직함",
+          "widget": "erilab-options",
+          "required": false,
+          "default": "Researcher",
+          "options": [
+            {
+              "value": "",
+              "label": "해당 없음 (Interns·Students·Alumni)"
+            },
+            {
+              "value": "Head, Principal Researcher",
+              "label": "연구단장·책임연구원"
+            },
+            {
+              "value": "Principal Researcher",
+              "label": "책임연구원"
+            },
+            {
+              "value": "Senior Researcher",
+              "label": "선임연구원"
+            },
+            {
+              "value": "Postdoctoral Researcher",
+              "label": "포닥"
+            },
+            {
+              "value": "Researcher",
+              "label": "연구원"
+            }
+          ]
+        },
+        {
+          "name": "special_service",
+          "label": "전문연구요원으로 근무",
+          "widget": "boolean",
+          "required": false,
+          "default": false
+        },
+        {
+          "name": "school",
+          "label": "학교 이름",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "bio",
+          "label": "소개",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "image",
+          "label": "프로필 사진",
+          "widget": "image",
+          "required": false,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ]
+        },
+        {
+          "name": "link",
+          "label": "개인 홈페이지",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "email",
+          "label": "공개 이메일",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "cv_url",
+          "label": "CV 웹 링크",
+          "widget": "string",
+          "required": false,
+          "hint": "본인의 CV 웹 주소를 선택 사항으로 등록합니다."
+        },
+        {
+          "name": "cv_file",
+          "label": "CV PDF 파일",
+          "widget": "file",
+          "required": false,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "pdf"
+          ]
+        },
+        {
+          "name": "destination",
+          "label": "이동한 기관·진로",
+          "widget": "string",
+          "required": false,
+          "hint": "Alumni로 이동할 때 이동한 기관·진로를 입력하세요. 저장하면 사진·이메일·CV 등 현 구성원 정보를 제거합니다."
+        },
+        {
+          "name": "position",
+          "label": "표시 순서 (작은 숫자부터, Researchers는 같은 직급 내)",
+          "widget": "number",
+          "required": true,
+          "default": 0,
+          "value_type": "int",
+          "min": 0,
+          "max": 9999
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "label": "연구",
+      "folder": "content/research",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{title}}",
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "title",
+          "label": "연구 주제·프로젝트 이름",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "summary",
+          "label": "연구 소개",
+          "widget": "text",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "연구 이미지",
+          "widget": "image",
+          "required": false,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ]
+        },
+        {
+          "name": "link",
+          "label": "프로젝트 링크",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "position",
+          "label": "표시 순서",
+          "widget": "number",
+          "required": true,
+          "default": 0,
+          "value_type": "int",
+          "min": 0,
+          "max": 9999
+        }
+      ]
+    },
+    {
+      "name": "publications",
+      "label": "논문",
+      "folder": "content/publications",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{title}}",
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "title",
+          "label": "논문 제목",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "authors",
+          "label": "저자",
+          "widget": "text",
+          "required": true
+        },
+        {
+          "name": "venue",
+          "label": "학회·저널",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "year",
+          "label": "연도",
+          "widget": "number",
+          "required": true,
+          "default": 2026,
+          "value_type": "int",
+          "min": 1900,
+          "max": 2100
+        },
+        {
+          "name": "status",
+          "label": "발표 강조",
+          "widget": "erilab-options",
+          "required": false,
+          "default": "",
+          "options": [
+            {
+              "value": "",
+              "label": "표시 없음"
+            },
+            {
+              "value": "Oral",
+              "label": "Oral"
+            },
+            {
+              "value": "Spotlight",
+              "label": "Spotlight"
+            }
+          ],
+          "hint": "공식 학회 자료로 확인한 Oral 또는 Spotlight만 강조합니다."
+        },
+        {
+          "name": "paper_url",
+          "label": "논문 링크",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "code_url",
+          "label": "코드 링크",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "project_url",
+          "label": "프로젝트 링크",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "image",
+          "label": "논문 이미지",
+          "widget": "image",
+          "required": false,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ]
+        },
+        {
+          "name": "position",
+          "label": "같은 연도 내 표시 순서",
+          "widget": "number",
+          "required": true,
+          "default": 0,
+          "value_type": "int",
+          "min": 0,
+          "max": 9999
+        }
+      ]
+    },
+    {
+      "name": "gallery",
+      "label": "갤러리",
+      "folder": "content/gallery",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{date}} · {{title}}",
+      "sortable_fields": [
+        "date",
+        "title"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "title",
+          "label": "사진 제목",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "촬영일·행사 날짜",
+          "widget": "datetime",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false,
+          "format": "YYYY-MM-DD",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "사진",
+          "widget": "image",
+          "required": true,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ],
+          "hint": "단체 사진이나 행사 사진을 한 장씩 등록합니다. 사진당 10 MB 이하의 JPEG·PNG·WebP 파일을 사용하세요."
+        },
+        {
+          "name": "caption",
+          "label": "사진 설명",
+          "widget": "text",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "news",
+      "label": "소식",
+      "folder": "content/news",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+      "summary": "{{title}}",
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "widget": "hidden",
+          "default": "",
+          "required": false
+        },
+        {
+          "name": "template",
+          "label": "소식 상황",
+          "widget": "erilab-news-template",
+          "required": false,
+          "default": "",
+          "hint": "상황을 선택하면 제목과 본문이 채워집니다. [ ] 안의 내용을 실제 정보로 바꾸세요. 직접 작성은 기존 문구를 유지합니다."
+        },
+        {
+          "name": "title",
+          "label": "소식 제목",
+          "widget": "erilab-news-title",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "날짜",
+          "widget": "datetime",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false,
+          "format": "YYYY-MM-DD",
+          "required": true
+        },
+        {
+          "name": "body",
+          "label": "소식 내용",
+          "widget": "erilab-news-body",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "사진",
+          "widget": "image",
+          "required": false,
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "jpg",
+            "jpeg",
+            "png",
+            "webp"
+          ]
+        },
+        {
+          "name": "link",
+          "label": "관련 링크",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "media_extensions": [
+    "png",
+    "jpg",
+    "jpeg",
+    "webp",
+    "pdf"
+  ],
+  "media_library": {
+    "config": {
+      "max_file_size": 10485760
+    }
+  }
+}

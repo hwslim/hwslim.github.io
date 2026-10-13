@@ -1,0 +1,9 @@
+name = "erilab-auth"
+main = "worker.mjs"
+compatibility_date = "2026-10-07"
+workers_dev = true
+
+[vars]
+SITE_ORIGIN = "https://erilab.xyz"
+REPO = "hwslim/hwslim.github.io"
+# Add GITHUB_CLIENT_ID as a variable and GITHUB_CLIENT_SECRET as a secret.

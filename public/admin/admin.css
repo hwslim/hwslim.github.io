@@ -1,0 +1,11 @@
+:root { font-family: system-ui, sans-serif; color: #2a2534; background: #f7f6f8; }
+body { margin: 0; }
+.setup-card { max-width: 640px; margin: 12vh auto; padding: 32px; background: white; border: 1px solid #e3e1e9; border-radius: 12px; line-height: 1.7; }
+.setup-card a { color: #745e9a; }
+.setup-card h1 { font-size: 28px; }
+.setup-card code { overflow-wrap: anywhere; }
+.erilab-options { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; }
+.erilab-option { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #d3d0da; border-radius: 6px; padding: 9px 12px; cursor: pointer; background: white; color: #2a2534; }
+.erilab-option:has(input:checked) { background: #f0ecfa; border-color: #745e9a; }
+.erilab-option:focus-within { outline: 2px solid #745e9a; outline-offset: 2px; }
+@media(max-width: 700px) { .setup-card { margin: 24px 12px; padding: 20px; } }
