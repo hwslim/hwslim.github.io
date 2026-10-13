@@ -199,7 +199,7 @@
               "label": "대표 이미지·그래픽 설명",
               "widget": "string",
               "required": false,
-              "default": "A 3D view of the ERILab research environment."
+              "default": "Loco-manipulation in a simulated environment."
             },
             {
               "name": "research_button",
