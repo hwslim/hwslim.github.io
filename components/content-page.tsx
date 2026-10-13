@@ -1,4 +1,5 @@
 import { SiteShell, ResearchCards, PeopleCards, AlumniList, PublicationList, NewsList, GalleryCards } from './site';
+import { SiteImage } from './site-image';
 import { getSettings, getRecords, peopleGroups, studentPrograms, researcherRank, publicPerson, linkUrl } from '../lib/content.mjs';
 
 export function ContentPage({ page }: { page: string }) {
@@ -29,7 +30,7 @@ export function ContentPage({ page }: { page: string }) {
       {page === 'publications' && (entries.length ? years.map(year => <div className="publication-year" key={year}><h2 className="year-label">{year}</h2><PublicationList entries={entries.filter(item => item.year === year)} /></div>) : <p className="empty-state">{site.publications_empty}</p>)}
       {page === 'news' && (entries.length ? <NewsList entries={entries} /> : <p className="empty-state">{site.news_empty}</p>)}
       {page === 'gallery' && (entries.length ? <GalleryCards entries={entries} /> : <p className="empty-state">{site.gallery_empty}</p>)}
-      {page === 'contact' && <div className="contact-grid"><div className="contact-panel"><span className="contact-mark" aria-hidden="true">↗</span><h2>{site.contact_location}</h2>{site.contact_address && <p className="preserve-lines">{site.contact_address}</p>}{site.contact_email && <a className="text-link" href={`mailto:${site.contact_email}`}>{site.contact_email} →</a>}{linkUrl(site.contact_url) && <a className="text-link" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer">{site.contact_link_label} ↗</a>}</div>{site.join_description && <div className="join-panel"><h2>{site.join_title}</h2><p className="preserve-lines">{site.join_description}</p></div>}</div>}
+      {page === 'contact' && <div className="contact-grid"><div className="contact-panel">{linkUrl(site.kist_logo) && linkUrl(site.contact_url) && <a className="contact-logo" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer" aria-label={site.contact_link_label}><SiteImage src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" /></a>}<h2>{site.contact_location}</h2>{site.contact_address && <p className="preserve-lines">{site.contact_address}</p>}{linkUrl(site.contact_url) && <a className="text-link" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer">{site.contact_link_label} ↗</a>}</div>{(site.join_description || site.contact_email) && <div className="join-panel"><h2>{site.join_title}</h2>{site.join_description && <p className="preserve-lines">{site.join_description}</p>}{site.contact_email && <a className="text-link" href={`mailto:${site.contact_email}`}>{site.contact_email} →</a>}</div>}</div>}
     </section>
   </SiteShell>;
 }

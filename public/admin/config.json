@@ -437,7 +437,7 @@
               "label": "공개 이메일",
               "widget": "string",
               "required": false,
-              "default": ""
+              "default": "hslim@kist.re.kr"
             },
             {
               "name": "contact_url",
@@ -465,7 +465,7 @@
               "label": "지원 안내 내용 (입력하면 표시)",
               "widget": "text",
               "required": false,
-              "default": ""
+              "default": "We are recruiting Ph.D., M.S., and undergraduate students, as well as interns, interested in embodied robotic intelligence.\nTo inquire about joining ERILab, please contact Dr. Hwasup Lim."
             }
           ]
         }
