@@ -28,10 +28,10 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
   </>;
 }
 
-export function ResearchCards({ entries }: { entries: Entry[] }) {
+export function ResearchCards({ entries, showImages = true }: { entries: Entry[]; showImages?: boolean }) {
   return <div className="research-grid">{entries.map((item, index) => <article className="research-card" key={item.id}>
     <span className="research-number">{String(index + 1).padStart(2, '0')}</span>
-    {item.image && <SiteImage className="research-image" src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
+    {showImages && item.image && <SiteImage className="research-image" src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
     <h3>{linkUrl(item.link) ? <a href={linkUrl(item.link)} target="_blank" rel="noopener noreferrer">{item.title} <span className="small-arrow">↗</span></a> : item.title}</h3>
     <p className="preserve-lines">{item.summary}</p>
   </article>)}</div>;

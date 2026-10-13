@@ -21,7 +21,7 @@ export default function Home() {
         {site.hero_caption && <figcaption><span className="caption-line" />{site.hero_caption}</figcaption>}
       </figure>
     </section>
-    {research.length > 0 && <section className="section section-tinted"><div className="container"><div className="section-heading"><div><p className="eyebrow">{site.nav_research}</p><h2>{site.home_research_title}</h2><p>{site.home_research_intro}</p></div><a className="text-link" href={sitePath('/research/')}>{site.view_all_label} →</a></div><ResearchCards entries={research} /></div></section>}
+    {research.length > 0 && <section className="section section-tinted"><div className="container"><div className="section-heading"><div><p className="eyebrow">{site.nav_research}</p><h2>{site.home_research_title}</h2><p>{site.home_research_intro}</p></div><a className="text-link" href={sitePath('/research/')}>{site.view_all_label} →</a></div><ResearchCards entries={research} showImages={false} /></div></section>}
     <section className="section container"><div className="section-heading"><div><p className="eyebrow">{site.nav_news}</p><h2>{site.home_news_title}</h2></div><a className="text-link" href={sitePath('/news/')}>{site.view_all_label} →</a></div>{news.length ? <NewsList entries={news} /> : <p className="empty-state">{site.news_empty}</p>}</section>
     {publications.length > 0 && <section className="section section-tinted"><div className="container"><div className="section-heading"><div><p className="eyebrow">{site.nav_publications}</p><h2>{site.home_publications_title}</h2></div><a className="text-link" href={sitePath('/publications/')}>{site.view_all_label} →</a></div><PublicationList entries={publications} /></div></section>}
   </SiteShell>;
