@@ -1,13 +1,13 @@
 {
   "hero_eyebrow": "Welcome to the Embodied Robotic Intelligence laboratory",
   "hero_title": "Embodied Robotic\nIntelligence Lab",
-  "hero_description": "We study vision-based robot intelligence at KIST, with a focus on loco-manipulation: bringing robot movement and object interaction together.",
+  "hero_description": "ERILab at KIST develops embodied intelligence for humanoid robots. Our research connects vision, touch, learning, and control, focusing on loco-manipulation, dexterous hands, and efficient on-device intelligence.",
   "hero_image": "",
-  "hero_caption": "Connecting visual perception with robot action.",
+  "hero_caption": "Connecting vision, touch, and robot action.",
   "research_button": "Explore our research",
   "people_button": "Meet the team",
   "home_research_title": "From perception to action",
-  "home_research_intro": "Our research connects how robots see with how they move and interact.",
+  "home_research_intro": "We connect vision, touch, learning, and control to help robots move and interact with the physical world.",
   "home_news_title": "Latest News",
   "home_publications_title": "Selected publications",
   "view_all_label": "View all"

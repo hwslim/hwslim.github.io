@@ -1,6 +1,6 @@
 {
-  "title": "Loco-manipulation",
-  "summary": "We investigate robot movement and object manipulation together, with a focus on vision-based approaches.",
+  "title": "Dexterous Hands & Tactile Sensing",
+  "summary": "We develop robotic hands and study dexterous manipulation using vision and tactile sensing. Our research includes tactile sensor-equipped gloves, with a focus on how contact information can support robot learning and control.",
   "image": "",
   "link": "",
   "position": "1",

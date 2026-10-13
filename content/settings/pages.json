@@ -1,6 +1,6 @@
 {
   "research_title": "Research",
-  "research_intro": "We investigate vision-based robot intelligence and loco-manipulation.",
+  "research_intro": "We connect vision, touch, learning, and control to develop embodied intelligence for humanoid robots, from whole-body movement and dexterous manipulation to efficient on-device models.",
   "people_title": "Our people",
   "people_intro": "The researchers behind ERILab at KIST.",
   "publications_title": "Publications",
@@ -14,9 +14,9 @@
   "gallery_empty": "Photos from our lab will appear here.",
   "research_empty": "Research areas will be listed here.",
   "people_empty": "Our team will be introduced here.",
-  "interns_empty": "We are recruiting interns interested in vision-based robot intelligence and loco-manipulation.",
-  "phd_students_empty": "We are recruiting Ph.D. students interested in vision-based robot intelligence and loco-manipulation.",
-  "ms_students_empty": "We are recruiting M.S. students interested in vision-based robot intelligence and loco-manipulation.",
-  "undergraduate_students_empty": "We are recruiting undergraduate students interested in vision-based robot intelligence and loco-manipulation.",
+  "interns_empty": "We are recruiting interns interested in embodied robotic intelligence.",
+  "phd_students_empty": "We are recruiting Ph.D. students interested in embodied robotic intelligence.",
+  "ms_students_empty": "We are recruiting M.S. students interested in embodied robotic intelligence.",
+  "undergraduate_students_empty": "We are recruiting undergraduate students interested in embodied robotic intelligence.",
   "alumni_empty": "Alumni will be listed here."
 }

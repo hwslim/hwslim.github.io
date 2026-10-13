@@ -89,14 +89,14 @@
               "label": "검색 결과 소개",
               "widget": "text",
               "required": false,
-              "default": "Vision-based robot intelligence and loco-manipulation research at KIST."
+              "default": "ERILab at KIST researches humanoid loco-manipulation, dexterous hands, tactile sensing, and on-device robotic intelligence."
             },
             {
               "name": "footer_text",
               "label": "하단 소개 문구",
               "widget": "text",
               "required": false,
-              "default": "Vision-based intelligence for robots that move and interact with the world."
+              "default": "Embodied intelligence for robots that move, touch, and interact with the world."
             },
             {
               "name": "nav_home",
@@ -173,7 +173,7 @@
               "label": "첫 화면 소개",
               "widget": "text",
               "required": false,
-              "default": "We study vision-based robot intelligence at KIST, with a focus on loco-manipulation: bringing robot movement and object interaction together."
+              "default": "ERILab at KIST develops embodied intelligence for humanoid robots. Our research connects vision, touch, learning, and control, focusing on loco-manipulation, dexterous hands, and efficient on-device intelligence."
             },
             {
               "name": "hero_image",
@@ -199,7 +199,7 @@
               "label": "대표 이미지·그래픽 설명",
               "widget": "string",
               "required": false,
-              "default": "Connecting visual perception with robot action."
+              "default": "Connecting vision, touch, and robot action."
             },
             {
               "name": "research_button",
@@ -227,7 +227,7 @@
               "label": "연구 영역 소개",
               "widget": "text",
               "required": false,
-              "default": "Our research connects how robots see with how they move and interact."
+              "default": "We connect vision, touch, learning, and control to help robots move and interact with the physical world."
             },
             {
               "name": "home_news_title",
@@ -269,7 +269,7 @@
               "label": "연구 페이지 소개",
               "widget": "text",
               "required": false,
-              "default": "We investigate vision-based robot intelligence and loco-manipulation."
+              "default": "We connect vision, touch, learning, and control to develop embodied intelligence for humanoid robots, from whole-body movement and dexterous manipulation to efficient on-device models."
             },
             {
               "name": "people_title",
@@ -367,28 +367,28 @@
               "label": "Intern이 없을 때 모집 문구",
               "widget": "text",
               "required": false,
-              "default": "We are recruiting interns interested in vision-based robot intelligence and loco-manipulation."
+              "default": "We are recruiting interns interested in embodied robotic intelligence."
             },
             {
               "name": "phd_students_empty",
               "label": "박사과정 학생이 없을 때 모집 문구",
               "widget": "text",
               "required": false,
-              "default": "We are recruiting Ph.D. students interested in vision-based robot intelligence and loco-manipulation."
+              "default": "We are recruiting Ph.D. students interested in embodied robotic intelligence."
             },
             {
               "name": "ms_students_empty",
               "label": "석사과정 학생이 없을 때 모집 문구",
               "widget": "text",
               "required": false,
-              "default": "We are recruiting M.S. students interested in vision-based robot intelligence and loco-manipulation."
+              "default": "We are recruiting M.S. students interested in embodied robotic intelligence."
             },
             {
               "name": "undergraduate_students_empty",
               "label": "학부생이 없을 때 모집 문구",
               "widget": "text",
               "required": false,
-              "default": "We are recruiting undergraduate students interested in vision-based robot intelligence and loco-manipulation."
+              "default": "We are recruiting undergraduate students interested in embodied robotic intelligence."
             },
             {
               "name": "alumni_empty",
