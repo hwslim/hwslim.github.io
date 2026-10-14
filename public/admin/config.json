@@ -741,7 +741,8 @@
             "jpg",
             "jpeg",
             "png",
-            "webp"
+            "webp",
+            "gif"
           ]
         },
         {
@@ -1027,6 +1028,7 @@
     "jpg",
     "jpeg",
     "webp",
+    "gif",
     "pdf"
   ],
   "media_library": {
