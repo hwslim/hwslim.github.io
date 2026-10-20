@@ -1,12 +1,14 @@
 import { newsTemplates } from './news-templates.mjs';
 
 const alumniFields = ['name_ko', 'education', 'role', 'school', 'bio', 'image', 'link', 'email', 'cv_url', 'cv_file'];
+const formerUndergraduateFields = alumniFields.filter(field => field !== 'name_ko').concat('destination');
 const studentDegrees = ['Ph.D. Student', 'M.S. Student', 'Undergraduate Student'];
 
 export function prepareEntry(kind, input) {
   const data = { ...input };
-  if (kind === 'people' && data.group === 'Alumni') {
-    for (const field of alumniFields) data[field] = '';
+  if (kind === 'people' && data.group === 'Alumni' && data.education === 'Undergraduate Student') data.group = 'Former Undergraduate Students';
+  if (kind === 'people' && ['Alumni', 'Former Undergraduate Students'].includes(data.group)) {
+    for (const field of data.group === 'Alumni' ? alumniFields : formerUndergraduateFields) data[field] = '';
     data.special_service = false;
   }
   if (kind === 'people' && ['Students', 'Interns'].includes(data.group)) data.role = '';
@@ -38,7 +40,9 @@ export function validateEntry(kind, data, fields) {
     }
   }
   if (kind === 'people') {
-    if (data.group === 'Alumni') {
+    if (data.group === 'Former Undergraduate Students') {
+      if (formerUndergraduateFields.some(field => data[field]) || data.special_service === true || data.special_service === '1') throw new Error('계약 종료 학부연구생은 영문·한글 이름만 보관하세요.');
+    } else if (data.group === 'Alumni') {
       if (!String(data.destination || '').trim()) throw new Error('Alumni의 이동한 기관·진로를 입력하세요.');
       if (alumniFields.some(field => data[field]) || data.special_service === true || data.special_service === '1') throw new Error('Alumni에는 이름과 이동한 기관·진로만 남겨주세요.');
     } else {

@@ -49,6 +49,12 @@ test('configured admin registers all fields and the Alumni pre-save operation', 
   assert.equal(saved.email, '');
   assert.equal(saved.cv_file, '');
   assert.throws(() => result.event.handler({ entry: fakeMap({ collection: 'people', data: fakeMap({ ...saved, destination: '' }) }) }), /기관/);
+  const archived = result.event.handler({ entry: fakeMap({ collection: 'people', data: fakeMap({ name: 'Former Student', name_ko: '이전학생', group: 'Alumni', education: 'Undergraduate Student', position: 0, email: 'student@kist.re.kr' }) }) }).toJS();
+  assert.equal(archived.group, 'Former Undergraduate Students');
+  assert.equal(archived.name_ko, '이전학생');
+  assert.equal(archived.email, '');
+  assert.equal(archived.destination, '');
+  assert.deepEqual(result.event.handler({ entry: fakeMap({ collection: 'people', data: fakeMap(archived) }) }).toJS(), archived);
   const home = JSON.parse(readFileSync('content/settings/home.json', 'utf8'));
   assert.deepEqual(result.event.handler({ entry: fakeMap({ collection: 'settings', slug: 'home', data: fakeMap(home) }) }).toJS(), home);
 });

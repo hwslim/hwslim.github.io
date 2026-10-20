@@ -45,6 +45,26 @@ test('student programs and official Intern title survive migration', () => {
   assert.throws(() => validateEntry('people', { ...person, education: 'Ph.D. Student' }, fields('people')), /학위/);
 });
 
+test('former undergraduates stay in author records while disappearing from public People', () => {
+  const student = { ...person, group: 'Students', name: 'MinJun Park', name_ko: '박민준', education: 'Undergraduate Student', school: 'SeoulTech', email: 'person@kist.re.kr', image: '/uploads/portrait.png', cv_file: '/uploads/cv.pdf' };
+  assert.equal(publicPerson(normalize(student)).name, 'MinJun Park');
+  for (const group of ['Alumni', 'Former Undergraduate Students']) {
+    const stored = prepareEntry('people', { ...student, group });
+    assert.equal(stored.group, 'Former Undergraduate Students');
+    assert.doesNotThrow(() => validateEntry('people', stored, fields('people')));
+    assert.equal(stored.name, 'MinJun Park');
+    assert.equal(stored.name_ko, '박민준');
+    for (const field of ['education', 'role', 'school', 'email', 'image', 'cv_file', 'destination']) assert.equal(stored[field], '');
+    assert.equal(publicPerson(normalize(stored)), null);
+    const highlighted = publicationAuthorParts('Minjun Park, External Author, 박민준', [normalize(stored)]);
+    assert.deepEqual(highlighted.filter(part => part.member).map(part => part.text.trim()), ['Minjun Park', '박민준']);
+    assert.deepEqual(prepareEntry('people', stored), stored);
+    assert.throws(() => validateEntry('people', { ...stored, email: 'person@kist.re.kr' }, fields('people')), /이름만/);
+  }
+  assert.equal(student.group, 'Students');
+  assert.equal(student.education, 'Undergraduate Student');
+});
+
 test('publication authors highlight current members and Alumni across name spellings', () => {
   const people = [
     { group: 'Principal Investigator', name: 'Hwasup Lim', name_ko: '임화섭' },
