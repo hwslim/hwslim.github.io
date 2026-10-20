@@ -38,7 +38,7 @@ Admin is `/admin/`, powered by Decap CMS pinned to version 3.16.3. Content lives
 
 Administrators sign in with GitHub accounts with repository write access. There is no signup or separate admin/admin account. Password changes happen in GitHub settings.
 
-Alumni movement clears active profile fields before saving. Unreferenced uploads/profile media are omitted from the public build. Previously public files may still exist in GitHub history; see the setup guide.
+Alumni movement clears active profile fields before saving. Departing undergraduates are saved as Former Undergraduate Students: their English/Korean names remain available for publication author highlighting, while they are omitted from public People/Alumni lists. Unreferenced uploads/profile media are omitted from the public build. Previously public files may still exist in GitHub history; see the setup guide.
 
 ## Deployment
 

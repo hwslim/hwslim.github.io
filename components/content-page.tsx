@@ -5,7 +5,7 @@ import { getSettings, getRecords, peopleGroups, studentPrograms, researcherRank,
 export function ContentPage({ page }: { page: string }) {
   const site = getSettings();
   const entries = page === 'contact' ? [] : getRecords(page);
-  const people = entries.map(publicPerson);
+  const people = entries.map(publicPerson).filter(person => person !== null);
   const studentRecruiting: Record<string, string> = {
     'Ph.D. Student': site.phd_students_empty,
     'M.S. Student': site.ms_students_empty,

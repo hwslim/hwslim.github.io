@@ -516,9 +516,13 @@
             {
               "value": "Alumni",
               "label": "Alumni로 이동"
+            },
+            {
+              "value": "Former Undergraduate Students",
+              "label": "학부연구생 계약 종료 (명단 보관)"
             }
           ],
-          "hint": "현 구성원을 Alumni로 이동하려면 Alumni를 선택하고 이동한 기관을 입력하세요. 사진·이메일·CV 등은 저장할 때 제거됩니다."
+          "hint": "현 구성원을 Alumni로 이동하려면 Alumni를 선택하고 이동한 기관을 입력하세요. 학부생은 자동으로 계약 종료 명단에 보관됩니다. 계약 종료 학부연구생은 공개 People·Alumni에는 표시하지 않고 영문·한글 이름을 보관해 논문 저자 강조에 사용합니다. 사진·이메일·CV 등은 저장할 때 제거됩니다."
         },
         {
           "name": "name",
@@ -680,7 +684,7 @@
           "label": "이동한 기관·진로",
           "widget": "string",
           "required": false,
-          "hint": "Alumni로 이동할 때 이동한 기관·진로를 입력하세요. 저장하면 사진·이메일·CV 등 현 구성원 정보를 제거합니다."
+          "hint": "Alumni로 이동할 때 이동한 기관·진로를 입력하세요. 계약 종료 학부연구생은 입력하지 않아도 됩니다. 저장하면 사진·이메일·CV 등 현 구성원 정보를 제거합니다."
         },
         {
           "name": "position",

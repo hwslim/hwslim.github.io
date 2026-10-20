@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { getSettings, linkUrl, sitePath } from '../lib/content.mjs';
+import { getSettings, getRecords, publicationAuthorParts, linkUrl, sitePath } from '../lib/content.mjs';
 import { SiteImage } from './site-image';
 
 export type Entry = Record<string, string>;
@@ -57,11 +57,12 @@ export function AlumniList({ entries }: { entries: Entry[] }) {
 }
 
 export function PublicationList({ entries }: { entries: Entry[] }) {
+  const people = getRecords('people');
   return <div className="publication-list">{entries.map(item => <article className="publication" key={item.id}>
     {item.image && <SiteImage src={linkUrl(item.image)} alt={item.title} loading="lazy" />}
     <div className="publication-content"><div className="publication-meta"><span>{item.venue} · {item.year}</span>
       {['Oral', 'Spotlight'].includes(item.status) && <span className="status-tag">{item.status}</span>}
-    </div><h3>{item.title}</h3><p className="authors preserve-lines">{item.authors}</p>
+    </div><h3>{item.title}</h3><p className="authors preserve-lines">{publicationAuthorParts(item.authors, people).map((part, index) => part.member ? <strong key={index}>{part.text}</strong> : part.text)}</p>
     <div className="publication-links">{[['paper_url', 'Paper'], ['code_url', 'Code'], ['project_url', 'Project']].map(([key, label]) =>
       linkUrl(item[key]) && <a key={key} href={linkUrl(item[key])} target="_blank" rel="noopener noreferrer">{key === 'paper_url' && /^https?:\/\/arxiv\.org\//.test(item[key]) ? 'arXiv' : label} ↗</a>)}</div></div>
   </article>)}</div>;
