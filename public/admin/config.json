@@ -465,7 +465,7 @@
               "label": "지원 안내 내용 (입력하면 표시)",
               "widget": "text",
               "required": false,
-              "default": "We welcome students, interns and postdoctoral researchers interested in embodied robotic intelligence. Explore the opportunities and programs below."
+              "default": "We welcome interns, postdoctoral researchers, and students interested in embodied robotic intelligence."
             },
             {
               "name": "join_interns_title",
@@ -570,7 +570,7 @@
               "label": "연구실 지원 문의 안내",
               "widget": "text",
               "required": false,
-              "default": "For research fit and application guidance, please contact Dr. Hwasup Lim."
+              "default": "Interested in joining ERILab? Please contact Dr. Hwasup Lim."
             }
           ]
         }

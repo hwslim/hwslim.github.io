@@ -7,7 +7,7 @@
   "contact_url": "https://cai.kist.re.kr/",
   "contact_link_label": "KIST Center for AI Research",
   "join_title": "Join us",
-  "join_description": "We welcome students, interns and postdoctoral researchers interested in embodied robotic intelligence. Explore the opportunities and programs below.",
+  "join_description": "We welcome interns, postdoctoral researchers, and students interested in embodied robotic intelligence.",
   "join_interns_title": "Interns & Postdocs",
   "join_interns_description": "Explore internship and postdoctoral research opportunities at KIST.",
   "join_interns_link_label": "View KIST openings",
@@ -22,5 +22,5 @@
   "join_training_url": "https://kist.re.kr/ko/notice/trainee-and-field-training.do",
   "join_kaist_program_label": "KAIST–KIST AI Robotics · Ph.D.",
   "join_kaist_program_url": "https://gsai.kaist.ac.kr/education-programs/?lang=ko",
-  "join_contact_description": "For research fit and application guidance, please contact Dr. Hwasup Lim."
+  "join_contact_description": "Interested in joining ERILab? Please contact Dr. Hwasup Lim."
 }
