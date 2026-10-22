@@ -13,7 +13,7 @@ function fakeMap(value) {
 }
 
 async function boot(config) {
-  const elements = { setup: { hidden: false }, 'setup-help': { hidden: true }, 'setup-status': { textContent: '' } };
+  const elements = { setup: { hidden: true }, 'setup-status': { textContent: '' } };
   const saved = { document: globalThis.document, window: globalThis.window, fetch: globalThis.fetch };
   let event, initialized;
   const widgets = {};
@@ -32,10 +32,13 @@ async function boot(config) {
   return { elements, event, widgets, initialized, browserDocument, browserWindow };
 }
 
-test('unconfigured admin explains setup instead of starting a broken login', async () => {
+test('unconfigured admin stays blank without starting login or showing setup instructions', async () => {
+  const html = readFileSync('public/admin/index.html', 'utf8');
+  assert.match(html, /<main id="setup"[^>]*\bhidden\b/);
+  assert.doesNotMatch(html, /setup-help|href="\.\/setup\.html"/);
   const result = await boot({ ...originalConfig, backend: { ...originalConfig.backend, base_url: '' } });
-  assert.equal(result.elements['setup-help'].hidden, false);
-  assert.match(result.elements['setup-status'].textContent, /설정/);
+  assert.equal(result.elements.setup.hidden, true);
+  assert.equal(result.elements['setup-status'].textContent, '');
   assert.equal(result.initialized, undefined);
 });
 
