@@ -465,32 +465,32 @@
               "label": "지원 안내 내용 (입력하면 표시)",
               "widget": "text",
               "required": false,
-              "default": "We welcome students and interns interested in embodied robotic intelligence. Explore the opportunities and programs below."
+              "default": "We welcome students, interns and postdoctoral researchers interested in embodied robotic intelligence. Explore the opportunities and programs below."
             },
             {
               "name": "join_interns_title",
-              "label": "인턴 지원 영역 제목",
+              "label": "인턴·포닥 지원 영역 제목",
               "widget": "string",
               "required": false,
-              "default": "Interns"
+              "default": "Interns & Postdocs"
             },
             {
               "name": "join_interns_description",
-              "label": "인턴 지원 설명",
+              "label": "인턴·포닥 지원 설명",
               "widget": "text",
               "required": false,
-              "default": "Fixed-term research opportunities at KIST."
+              "default": "Explore internship and postdoctoral research opportunities at KIST."
             },
             {
               "name": "join_interns_link_label",
-              "label": "인턴 모집 링크 문구",
+              "label": "인턴·포닥 모집 링크 문구",
               "widget": "string",
               "required": false,
               "default": "View KIST openings"
             },
             {
               "name": "join_interns_url",
-              "label": "인턴 모집 링크",
+              "label": "인턴·포닥 모집 링크",
               "widget": "string",
               "required": false,
               "default": "https://kist.re.kr/ko/notice/employment-announcement.do"
