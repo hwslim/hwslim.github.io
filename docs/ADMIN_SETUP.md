@@ -2,7 +2,7 @@
 
 공개 홈페이지는 기존 GitHub Pages와 `erilab.xyz`에서 운영합니다. 관리자 화면은 Decap CMS이며, GitHub 로그인 인증만 Cloudflare Workers에서 처리합니다. Python 서버나 데이터베이스는 필요하지 않습니다.
 
-현재 `public/admin/config.json`의 `backend.base_url`은 비어 있습니다. 아래 설정을 완료하기 전에는 `/admin/`에 최초 설정 안내가 표시됩니다. 실제 GitHub 로그인·저장·운영 배포 검증은 설정 이후에 진행해야 합니다.
+현재 `public/admin/config.json`의 `backend.base_url`은 비어 있습니다. 아래 설정을 완료하기 전에는 사이트의 Admin 링크를 숨기며, `/admin/`에 직접 접속해도 빈 화면을 표시합니다. 인증 서버 주소를 등록하고 사이트를 다시 빌드·배포하면 Admin 링크와 로그인 화면이 활성화됩니다. 실제 GitHub 로그인·저장·운영 배포 검증은 설정 이후에 진행해야 합니다.
 
 ## 1. Cloudflare Worker 생성
 

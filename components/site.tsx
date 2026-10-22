@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { getSettings, getRecords, publicationAuthorParts, linkUrl, sitePath } from '../lib/content.mjs';
 import { SiteImage } from './site-image';
+import adminConfig from '../public/admin/config.json';
 
 export type Entry = Record<string, string>;
 const site = getSettings();
@@ -24,7 +25,7 @@ export function SiteShell({ page, children }: { page: string; children: ReactNod
     <footer className="site-footer"><div className="container footer-main">
       <div><a className="footer-name" href={sitePath('/')}>{site.lab_name}<span className="accent-dot">.</span></a><p>{site.full_name}</p></div>
       <div><p className="footer-description">{site.footer_text}</p><p className="muted">{site.affiliation}</p></div>
-    </div><div className="container footer-bottom"><span>{site.lab_name} · {site.affiliation}</span><a href={sitePath('/admin/')}>Admin</a></div></footer>
+    </div><div className="container footer-bottom"><span>{site.lab_name} · {site.affiliation}</span>{adminConfig.backend.base_url && <a href={sitePath('/admin/')}>Admin</a>}</div></footer>
   </>;
 }
 

@@ -6,10 +6,8 @@ try {
   const response = await fetch('./config.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('관리자 설정 파일을 불러오지 못했습니다.');
   const config = await response.json();
-  if (!config.backend.base_url) {
-    status.textContent = '최초 로그인 설정이 필요합니다.';
-    document.getElementById('setup-help').hidden = false;
-  } else {
+  if (config.backend.base_url) {
+    document.getElementById('setup').hidden = false;
     status.textContent = 'GitHub 로그인 화면을 불러오고 있습니다.';
     await new Promise((resolve, reject) => {
       const script = document.createElement('script');
