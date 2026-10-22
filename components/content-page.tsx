@@ -34,10 +34,6 @@ export function ContentPage({ page }: { page: string }) {
       {page === 'contact' && <div className="contact-content">
         {(site.join_description || site.contact_email || linkUrl(site.join_interns_url) || studentLinks.length > 0) && <div className="join-panel">
           <div className="join-heading"><h2>{site.join_title}</h2>{site.join_description && <p className="preserve-lines">{site.join_description}</p>}</div>
-          {(site.join_contact_description || site.contact_email) && <div className="join-contact">
-            {site.join_contact_description && <p className="preserve-lines">{site.join_contact_description}</p>}
-            {site.contact_email && <a className="button primary join-email" href={`mailto:${site.contact_email}`}>{site.contact_email} <span aria-hidden="true">→</span></a>}
-          </div>}
           <div className="join-paths">
             {linkUrl(site.join_interns_url) && <section className="join-path">
               <h3>{site.join_interns_title}</h3><p className="preserve-lines">{site.join_interns_description}</p>
@@ -48,6 +44,10 @@ export function ContentPage({ page }: { page: string }) {
               <div className="join-resources">{studentLinks.map(name => <a className="join-resource" key={name} href={linkUrl(site[`join_${name}_url`])} target="_blank" rel="noopener noreferrer"><span>{site[`join_${name}_label`]}</span><span aria-hidden="true">↗</span></a>)}</div>
             </section>}
           </div>
+          {(site.join_contact_description || site.contact_email) && <div className="join-contact">
+            {site.join_contact_description && <p className="preserve-lines">{site.join_contact_description}</p>}
+            {site.contact_email && <a className="button primary join-email" href={`mailto:${site.contact_email}`}>{site.contact_email} <span aria-hidden="true">→</span></a>}
+          </div>}
         </div>}
         <div className="contact-institution">
           {linkUrl(site.kist_logo) && linkUrl(site.contact_url) && <a className="contact-logo" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer" aria-label={site.contact_link_label}><SiteImage src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" /></a>}
