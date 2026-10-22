@@ -6,6 +6,7 @@ export function ContentPage({ page }: { page: string }) {
   const site = getSettings();
   const entries = page === 'contact' ? [] : getRecords(page);
   const people = entries.map(publicPerson).filter(person => person !== null);
+  const studentLinks = ['student_openings', 'joint_program', 'training', 'kaist_program'].filter(name => linkUrl(site[`join_${name}_url`]));
   const studentRecruiting: Record<string, string> = {
     'Ph.D. Student': site.phd_students_empty,
     'M.S. Student': site.ms_students_empty,
@@ -30,7 +31,26 @@ export function ContentPage({ page }: { page: string }) {
       {page === 'publications' && (entries.length ? years.map(year => <div className="publication-year" key={year}><h2 className="year-label">{year}</h2><PublicationList entries={entries.filter(item => item.year === year)} /></div>) : <p className="empty-state">{site.publications_empty}</p>)}
       {page === 'news' && (entries.length ? <NewsList entries={entries} /> : <p className="empty-state">{site.news_empty}</p>)}
       {page === 'gallery' && (entries.length ? <GalleryCards entries={entries} /> : <p className="empty-state">{site.gallery_empty}</p>)}
-      {page === 'contact' && <div className="contact-grid"><div className="contact-panel">{linkUrl(site.kist_logo) && linkUrl(site.contact_url) && <a className="contact-logo" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer" aria-label={site.contact_link_label}><SiteImage src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" /></a>}<h2>{site.contact_location}</h2>{site.contact_address && <p className="preserve-lines">{site.contact_address}</p>}{linkUrl(site.contact_url) && <a className="text-link" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer">{site.contact_link_label} ↗</a>}</div>{(site.join_description || site.contact_email) && <div className="join-panel"><h2>{site.join_title}</h2>{site.join_description && <p className="preserve-lines">{site.join_description}</p>}{site.contact_email && <a className="text-link" href={`mailto:${site.contact_email}`}>{site.contact_email} →</a>}</div>}</div>}
+      {page === 'contact' && <div className="contact-grid">
+        <div className="contact-panel">{linkUrl(site.kist_logo) && linkUrl(site.contact_url) && <a className="contact-logo" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer" aria-label={site.contact_link_label}><SiteImage src={linkUrl(site.kist_logo)} alt="KIST — Korea Institute of Science and Technology" width="1229" height="405" /></a>}<h2>{site.contact_location}</h2>{site.contact_address && <p className="preserve-lines">{site.contact_address}</p>}{linkUrl(site.contact_url) && <a className="text-link" href={linkUrl(site.contact_url)} target="_blank" rel="noopener noreferrer">{site.contact_link_label} ↗</a>}</div>
+        {(site.join_description || site.contact_email || linkUrl(site.join_interns_url) || studentLinks.length > 0) && <div className="join-panel">
+          <h2>{site.join_title}</h2>{site.join_description && <p className="preserve-lines">{site.join_description}</p>}
+          <div className="join-paths">
+            {linkUrl(site.join_interns_url) && <section className="join-path join-interns">
+              <h3>{site.join_interns_title}</h3><p className="preserve-lines">{site.join_interns_description}</p>
+              <a className="join-resource" href={linkUrl(site.join_interns_url)} target="_blank" rel="noopener noreferrer"><span>{site.join_interns_link_label}</span><span aria-hidden="true">↗</span></a>
+            </section>}
+            {studentLinks.length > 0 && <section className="join-path join-students">
+              <h3>{site.join_students_title}</h3><p className="preserve-lines">{site.join_students_description}</p>
+              <div>{studentLinks.map(name => <a className="join-resource" key={name} href={linkUrl(site[`join_${name}_url`])} target="_blank" rel="noopener noreferrer"><span>{site[`join_${name}_label`]}</span><span aria-hidden="true">↗</span></a>)}</div>
+            </section>}
+          </div>
+          {(site.join_contact_description || site.contact_email) && <div className="join-contact">
+            {site.join_contact_description && <p className="preserve-lines">{site.join_contact_description}</p>}
+            {site.contact_email && <a className="text-link join-email" href={`mailto:${site.contact_email}`}>{site.contact_email} <span aria-hidden="true">→</span></a>}
+          </div>}
+        </div>}
+      </div>}
     </section>
   </SiteShell>;
 }

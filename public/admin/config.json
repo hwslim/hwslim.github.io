@@ -465,7 +465,112 @@
               "label": "지원 안내 내용 (입력하면 표시)",
               "widget": "text",
               "required": false,
-              "default": "We are recruiting Ph.D., M.S., and undergraduate students, as well as interns, interested in embodied robotic intelligence.\nTo inquire about joining ERILab, please contact Dr. Hwasup Lim."
+              "default": "We welcome students and interns interested in embodied robotic intelligence. Explore the opportunities and programs below."
+            },
+            {
+              "name": "join_interns_title",
+              "label": "인턴 지원 영역 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Interns"
+            },
+            {
+              "name": "join_interns_description",
+              "label": "인턴 지원 설명",
+              "widget": "text",
+              "required": false,
+              "default": "Fixed-term research opportunities at KIST."
+            },
+            {
+              "name": "join_interns_link_label",
+              "label": "인턴 모집 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "View KIST openings"
+            },
+            {
+              "name": "join_interns_url",
+              "label": "인턴 모집 링크",
+              "widget": "string",
+              "required": false,
+              "default": "https://kist.re.kr/ko/notice/employment-announcement.do"
+            },
+            {
+              "name": "join_students_title",
+              "label": "학생 지원 영역 제목",
+              "widget": "string",
+              "required": false,
+              "default": "Students"
+            },
+            {
+              "name": "join_students_description",
+              "label": "학생 지원 설명",
+              "widget": "text",
+              "required": false,
+              "default": "Research pathways for Ph.D., M.S. and undergraduate students."
+            },
+            {
+              "name": "join_student_openings_label",
+              "label": "학생 모집 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "KIST student openings"
+            },
+            {
+              "name": "join_student_openings_url",
+              "label": "학생 모집 링크",
+              "widget": "string",
+              "required": false,
+              "default": "https://kist.re.kr/ko/notice/recruiting-students.do"
+            },
+            {
+              "name": "join_joint_program_label",
+              "label": "학연협동과정 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "Joint M.S. & Ph.D. programs"
+            },
+            {
+              "name": "join_joint_program_url",
+              "label": "학연협동과정 링크",
+              "widget": "string",
+              "required": false,
+              "default": "https://kist.re.kr/ko/notice/cooperative-research.do"
+            },
+            {
+              "name": "join_training_label",
+              "label": "연수생·현장실습 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "Research training & fieldwork"
+            },
+            {
+              "name": "join_training_url",
+              "label": "연수생·현장실습 링크",
+              "widget": "string",
+              "required": false,
+              "default": "https://kist.re.kr/ko/notice/trainee-and-field-training.do"
+            },
+            {
+              "name": "join_kaist_program_label",
+              "label": "KAIST–KIST 프로그램 링크 문구",
+              "widget": "string",
+              "required": false,
+              "default": "KAIST–KIST AI Robotics · Ph.D."
+            },
+            {
+              "name": "join_kaist_program_url",
+              "label": "KAIST–KIST 프로그램 링크",
+              "widget": "string",
+              "required": false,
+              "default": "https://gsai.kaist.ac.kr/education-programs/?lang=ko"
+            },
+            {
+              "name": "join_contact_description",
+              "label": "연구실 지원 문의 안내",
+              "widget": "text",
+              "required": false,
+              "default": "For research fit and application guidance, please contact Dr. Hwasup Lim."
             }
           ]
         }
