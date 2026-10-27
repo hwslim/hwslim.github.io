@@ -14,6 +14,16 @@ test('all migrated records satisfy the same rules used by the editor', () => {
   }
 });
 
+test('research accepts optional MP4 videos and rejects invalid video links and file types', () => {
+  const research = { title: 'Loco-Manipulation', summary: 'Research description.', position: 0 };
+  for (const video of ['', '/uploads/research.mp4', 'https://example.org/research.mp4?version=1']) {
+    assert.doesNotThrow(() => validateEntry('research', { ...research, video }, fields('research')));
+  }
+  for (const video of ['javascript:alert(1)', '/uploads/research.exe', '/uploads/research.gif', '/uploads/../research.mp4']) {
+    assert.throws(() => validateEntry('research', { ...research, video }, fields('research')));
+  }
+});
+
 test('researchers sort by rank with postdocs and technical service at the same rank', () => {
   const entries = [
     { ...person, id: '1', role: 'Postdoctoral Researcher', position: '4' },

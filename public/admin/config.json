@@ -855,6 +855,23 @@
           ]
         },
         {
+          "name": "video",
+          "label": "연구 영상 (MP4)",
+          "widget": "file",
+          "required": false,
+          "hint": "10 MB 이하 MP4. 등록하면 연구 이미지 대신 표시하며, 첫 페이지에는 표시하지 않습니다.",
+          "media_library": {
+            "config": {
+              "max_file_size": 10485760,
+              "multiple": false
+            },
+            "allow_multiple": false
+          },
+          "media_extensions": [
+            "mp4"
+          ]
+        },
+        {
           "name": "link",
           "label": "프로젝트 링크",
           "widget": "string",
